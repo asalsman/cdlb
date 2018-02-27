@@ -1,0 +1,46 @@
+/*
+Desktop Max Width: 322px;
+*/
+
+.rail {
+	width: 356px;
+	padding: 0 1em;
+	border-left: 1px solid #ccc;
+}
+
+.rail > div {
+	padding-bottom: 1em;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 1em;
+}
+
+.rail > div:last-child {
+	border-bottom: none;
+}
+
+.latest-edition > a {
+	float: left;
+	width: 130px;
+	height: 180px;
+	padding-right: .5em;
+	margin-left: .5em;
+}
+
+.latest-edition > div {
+	border: 1px solid #ccc;
+	margin-top: 1em;
+	position: relative;
+	top: 1em;
+	padding: .5em 0;
+}
+
+.referral { 
+	display: flex;
+	padding: 0 1em;
+}
+
+.referral img {
+	max-width: 160px;
+	height: 60px;
+	margin-right: .5em;
+}

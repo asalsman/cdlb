@@ -1,0 +1,76 @@
+
+/* Footer */
+footer {
+	background-color: #ccc;
+	margin: 0 auto;
+	max-width: 100%;
+	border-top: 1px solid #999;
+}
+
+footer nav {
+	background-color: #666;
+	color: #fff;
+}
+
+footer nav h3 {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 100%;
+	border-bottom: 1px solid #fff;
+	color: #fff;
+	padding-bottom: .5em;
+	margin-bottom: 1em;
+}
+
+footer .contact {
+	background-color: #000;
+	color: #fff;
+}
+
+footer a {
+	color: #fff;
+}
+
+footer nav {
+	display: flex;
+	flex: 1;
+	padding: 0 4em;
+}
+
+footer .social,
+footer .contact {
+	width: 100%;
+}
+
+footer .social ul,
+footer .contact ul {
+	margin: 0 auto; 
+	text-align: center;
+	padding: 1em 0;
+}
+
+footer .social li,
+footer .contact li {
+	display: inline-block;
+	margin: 0 1em;
+}
+
+footer .contact li {
+	position: relative;
+	top: -1.5em;
+}
+
+footer .contact .logo {
+	margin: 0;
+	top: 0;
+}
+
+
+footer nav ul {
+	width: 22%;
+	margin: 1em;
+}
+
+footer nav li {
+	margin-bottom: .5em;
+}

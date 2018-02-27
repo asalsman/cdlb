@@ -1,0 +1,232 @@
+
+/* Main */
+
+body {
+	margin: 0 auto;
+	z-index: 1;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+	margin: 1.5em auto;
+	max-width: 1359px;
+}
+
+a {
+	text-decoration: none;
+	color: #111;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+h1, h2, h4 {
+	line-height: 1.25em;
+	margin-bottom: .25em;
+	font-family: Garamond, serif;
+	font-weight: bold;
+}
+
+h1 {
+	font-size: 1.5em;
+}
+
+
+h2 {
+	font-size: 1.2em;
+}
+
+h3 {
+	font-size: 1.1em;
+	line-height: 1.15em;
+	margin-bottom: .25em;
+}
+
+.top-of-page {
+	display: flex;
+}
+
+.top-of-page .left {
+	width: 322px;
+	padding: 0 1em;
+}
+
+.top-of-page .center {
+	padding: 0 1em;
+	border-right: 1px solid #999;
+	border-left: 1px solid #999;
+}
+
+
+.top-of-page .center > div,
+.top-of-page .left > div {
+	margin-bottom: 1em;
+}
+
+.top-of-page .center > div:last-child,
+.top-of-page .left > div:last-child,
+#people > div:last-child {
+	margin-bottom: 0;
+}
+
+
+/* Ads */
+.ad {
+	margin: 0 auto;
+	text-align: center;
+}
+
+
+.sponsored {
+	padding: 1em;
+	background-color: #eee;
+}
+
+.sponsored a {
+	text-decoration: none;
+}
+
+.sponsored .overline {
+	font-size: .6em;
+	text-transform: uppercase;
+	color: #FFA500;
+}
+
+/* tease styles */
+.tease {
+	line-height: 1.25em;
+	font-size: 80%;
+	color: #666;
+}
+
+.lede > div span {
+	font-size: 80%;
+	margin-bottom: 1.5em;
+	display: block;
+}
+
+.offlede div.image {
+	width: 25%;
+	float: right;
+}
+
+.offlede div.image img {
+	width: 100%;
+}
+
+.offlede ul {
+	clear: both;
+	width: 100%;
+}
+
+
+.lede ul,
+.offlede ul {
+	margin-top: .5em;
+	font-family: Garamond, serif;
+	font-weight: bold;
+	list-style-type: disc;
+}
+
+.lede ul li,
+.offlede ul li {
+	margin-left: 2em;
+}
+
+#people > div {
+	margin-bottom: 1em;
+}
+
+#people > div > div {
+	float: left;
+	width: 120px;
+	text-align: center;
+}
+
+#people > div p {
+	margin-left: calc(120px + 1em);
+}
+
+#people > div:after  {
+	content: "."; 
+	visibility: hidden; 
+	display: block; 
+	height: 0; 
+	clear: both;
+}
+
+.byline {
+	margin-top: .25em;
+}
+
+/* Beltway */
+#beltway {
+	text-align: center;
+	margin: 1em auto;
+	padding: .5em 0;
+	background-color: #ccc;
+}
+
+#beltway > div {
+	width: 75%;
+	margin: 0 auto;
+}
+
+#beltway > div > img {
+	width: 60%;
+}
+
+#beltway div div img {
+	display: inline;
+	width: 48px;
+	height: 48px;
+	border: 1px solid #000;
+}
+
+#beltway div span {
+	display: inline-block;
+	position: relative;
+	top: -1em;
+}
+
+/* slider */
+.slider-container {
+	background-color: #c0c;
+	width: 100%;
+	overflow: hidden;
+}
+
+.slider {
+	max-width: 100%;
+}
+
+.slider .slide {
+	width: 500px;
+	margin-right: 2em;
+	float: left;
+}
+
+.slider .slide img {
+	width: 100%;
+}
+
+.slider .cf {
+	clear: both;
+}
+
+/* Figure */
+figure {
+	width: 100%;
+	font-size: .8em;
+	margin-bottom: 2em;
+}
+
+figure img {
+	width: 100%;
+	margin: 0;
+}
+
+figure figcaption {
+	margin: .25em 0 .5em 0;
+}
