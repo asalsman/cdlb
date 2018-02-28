@@ -231,15 +231,25 @@ h3 {
   width: 600px;
   flex-shrink: 0;
   height: 100%;
-  margin: 2em;
+  margin: 1em;
 }
 
 .slider .slide img {
 	width: 100%;
 }
 
-.slider .cf {
-	clear: both;
+.slider-container header h3 {
+	color: #903;
+	text-transform: uppercase;
+	margin: .75em 0 .5em 3em;
+	font-weight: bold;	
+	float-left;
+	display: inline-block;
+}
+
+.slider-container header .controls {
+	float: right;
+	margin: .75em 3em .5em 0;	
 }
 
 /* Figure */
