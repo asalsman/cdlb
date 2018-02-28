@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 	<head>
 		<title>
@@ -9,7 +10,7 @@
 		<link href="css/rail.css" rel="stylesheet" />
 		<link href="css/footer.css" rel="stylesheet" />
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-		<script src="js/jquery.jcarousel.min.js"></script>
+		<link href="source/slick-1.8.0/slick/slick.css" rel="stylesheet" />
 	</head>
 	<body>
 		<header class="primary">
@@ -308,13 +309,9 @@
 			<section class="slider-container">
 				<header>
 					<h3>Photogallery <span>with Top Stories</span></h3>
-					<div class="controls">
-						<span class="active">&middot;</span>
-						<span>&middot;</span>
-						<span>&middot;</span>						
-					</div>
+					<div class="controls"></div>
 				</header>
-				<div class="slider">
+				<div class="slider center">
 					<div class="slide">
 						<img src="http://via.placeholder.com/740x420" />
 						<div class="date">
@@ -399,25 +396,6 @@
 				</aside>
 			</div>
 		</section>
-			<section class="slider-container">
-				<div class="slider">
-					<header>
-						<h3>title</h3>
-						<div class="controls">
-						dot dot dot
-						</div>
-					</header>
-					<div class="slide">
-						Slide 1
-					</div>
-					<div class="slide">
-						Slide 2
-					</div>
-					<div class="slide">
-						Slide 3
-					</div>
-				</div>
-			</section>
 		<footer>
 			<nav>
 				<ul>
@@ -499,10 +477,20 @@
 					<li>Fax us: 312-644-4255</li>
 					<li><a href="">Terms &amp; Policies</a></li>
 					<li class="logo"><a href=""><img src="images/bug-law_bulletin_media.png" /></a></li>
-
 				</ul>
 			</div>
 		</footer>
+		<script src="js/slick.js"></script>
+		<script>
+      $(".slider.center").slick({
+        dots: true,
+        infinite: false,
+        centerMode: true,
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        initialSlide: 1,
+        appendDots: $('section.slider-container .controls')
+      });
+     </script>
 	</body>
-	<script src=""></script>
 </html>

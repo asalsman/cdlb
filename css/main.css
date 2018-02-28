@@ -221,7 +221,7 @@ h3 {
 
 .slider {
   width: 100%;
-  height: 450px;
+  height: auto;
   display: flex;
   overflow-x: auto;
   overflow-y: hidden;
