@@ -48,7 +48,7 @@ h3 {
 }
 
 .top-of-page .left {
-	width: 322px;
+	width: auto;
 	padding: 0 1em;
 }
 
@@ -56,6 +56,7 @@ h3 {
 	padding: 0 1em;
 	border-right: 1px solid #999;
 	border-left: 1px solid #999;
+	min-width: 740px;
 }
 
 
@@ -77,6 +78,12 @@ h3 {
 	text-align: center;
 }
 
+.ad.sticky {
+	position: -webkit-sticky;
+  	position: sticky;
+ 	align-self: flex-start;
+ 	top: 0;
+}
 
 .sponsored {
 	padding: 1em;
@@ -138,14 +145,29 @@ h3 {
 	margin-bottom: 1em;
 }
 
+#people h3 {
+	margin-bottom: .5em;
+	color: #903;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 85%;
+}
+
 #people > div > div {
 	float: left;
 	width: 120px;
 	text-align: center;
+	font-size: 90%;
+	font-weight: bold;
 }
 
+#people img {
+	margin-bottom: .25em;
+}
 #people > div p {
 	margin-left: calc(120px + 1em);
+	font-family: Garamond;
+	font-size: 90%;
 }
 
 #people > div:after  {
@@ -198,13 +220,18 @@ h3 {
 }
 
 .slider {
-	max-width: 100%;
+  width: 100%;
+  height: 600px;
+  display: flex;
+  overflow-x: auto;
+  overflow-y: hidden;
 }
 
 .slider .slide {
-	width: 500px;
-	margin-right: 2em;
-	float: left;
+  width: 600px;
+  flex-shrink: 0;
+  height: 100%;
+  margin: 2em;
 }
 
 .slider .slide img {
@@ -229,4 +256,13 @@ figure img {
 
 figure figcaption {
 	margin: .25em 0 .5em 0;
+}
+
+/* Social */
+.social li img {
+	height: 24px;
+}
+
+.social label {
+	display: none;
 }

@@ -25,6 +25,7 @@ footer nav h3 {
 footer .contact {
 	background-color: #000;
 	color: #fff;
+	font-size: 75%;
 }
 
 footer a {
@@ -58,11 +59,19 @@ footer .contact li {
 footer .contact li {
 	position: relative;
 	top: -1.5em;
+	border-right: 1px solid #fff;
+	padding-right: 1em;
+	margin-right: 0;
+}
+
+footer .contact li:nth-last-child(2) {
+	border-right: 0;
 }
 
 footer .contact .logo {
-	margin: 0;
+	margin: 0 0 0 5em;
 	top: 0;
+	border-right: 0;
 }
 
 
@@ -73,4 +82,12 @@ footer nav ul {
 
 footer nav li {
 	margin-bottom: .5em;
+}
+
+footer .social img {
+	height: 30px;
+}
+
+footer .social li {
+	margin: 0 .25em;
 }

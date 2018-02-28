@@ -57,6 +57,10 @@ main article .byline a {
 	margin: 1em 1.5em 0 1.5em;
 	overflow: hidden;
 	text-align: center;
+	position: -webkit-sticky;
+  	position: sticky;
+  	top: 0;
+	align-self: flex-start;
 }
 
 .article-body aside ul{
@@ -83,8 +87,16 @@ main article .byline a {
 	width: calc(100% - 40px - 4em);
 }
 
+.article-body section p {
+	line-height: 1.25em;
+}
+
 main article header {
 	width: 100%;
+}
+
+.article main figcaption {
+	text-align: center;
 }
 
 /* More Stories */
