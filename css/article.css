@@ -59,10 +59,13 @@ main article .byline a {
 	text-align: center;
 	position: -webkit-sticky;
   	position: sticky;
-  	top: 0;
+  	top: .5em;
 	align-self: flex-start;
 }
 
+.article-body .social li img {
+	height: 32px;
+}
 .article-body aside ul{
 	border: 1px solid #aaa;
 }
