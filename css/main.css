@@ -248,6 +248,10 @@ h3 {
 	display: inline-block;
 }
 
+.slider-container header h3 span {
+	text-transform: none;
+}
+
 .slider-container header .controls {
 	float: right;
 	margin: .25em 3em .5em 0;	
@@ -312,4 +316,44 @@ figure figcaption {
 
 .social label {
 	display: none;
+}
+
+/* Sections */
+section.two-col {
+	margin: 1em 1.5em 0 4em;
+}
+
+section.two-col h4 {
+	display: block;
+	text-transform: uppercase;
+	color: #903;
+	font-family: Arial, Helvetica;
+}
+
+section.two-col > div {
+	display: flex;
+}
+
+section.two-col > div > div:first-child {
+	width: 18em;
+	margin: 0 4em 0 6em;
+}
+
+section.two-col > div > div:first-child ul li {
+	margin-bottom: 1em;
+}
+
+section.two-col > div > div:first-child ul li div:first-child {
+	font-size: 100%;
+	font-family: garamond;
+	font-weight: bold;
+	line-height: 1.25em;
+}
+
+section.two-col > div > div:first-child ul li div:last-child {
+	font-size: 75%;
+}
+
+section.two-col > div > div:nth-child(2) {
+	width: calc(100% - 20em - 357px);
 }
