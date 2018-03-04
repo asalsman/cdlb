@@ -216,15 +216,14 @@ h3 {
 .slider-container {
 	background-color: #eee;
 	width: 100%;
-	overflow: hidden;
+	position: relative;
 }
 
 .slider {
-  width: 100%;
+  width: calc(100% - 40px);
   height: auto;
   display: flex;
-  overflow-x: auto;
-  overflow-y: hidden;
+  padding-left: 2em;
 }
 
 .slider .slide {
@@ -356,4 +355,13 @@ section.two-col > div > div:first-child ul li div:last-child {
 
 section.two-col > div > div:nth-child(2) {
 	width: calc(100% - 20em - 357px);
+}
+
+/* Slick Theme overrides */
+.slider-container .slick-dots {
+	position: static;
+}
+
+div.slick-list {
+
 }
