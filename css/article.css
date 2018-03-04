@@ -11,7 +11,7 @@ main {
 }
 
 main article {
-	max-width: 790px;
+	min-width: 790px;
 	margin: 0 3em;
 }
 
@@ -63,9 +63,15 @@ main article .byline a {
 	align-self: flex-start;
 }
 
-.article-body .social li img {
+.article-body .social li img,
+.article-body .tools li img {
 	height: 32px;
 }
+
+.article-body .tools label {
+	display: none;
+}
+
 .article-body aside ul{
 	border: 1px solid #aaa;
 }

@@ -54,9 +54,9 @@ h3 {
 
 .top-of-page .center {
 	padding: 0 1em;
-	border-right: 1px solid #999;
 	border-left: 1px solid #999;
 	min-width: 740px;
+	width: 740px;
 }
 
 
@@ -203,7 +203,10 @@ h3 {
 	display: inline;
 	width: 48px;
 	height: 48px;
-	border: 1px solid #000;
+}
+
+#beltway > div div {
+	margin: .5em 0;
 }
 
 #beltway div span {
