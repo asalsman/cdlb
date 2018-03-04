@@ -365,6 +365,11 @@ section.two-col > div > div:nth-child(2) {
 	position: static;
 }
 
-div.slick-list {
+.slick-prev,
+.slick-next {
+	z-index: 5;
+}
 
+.slick-prev {
+	left: 16px;
 }
