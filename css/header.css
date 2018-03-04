@@ -79,8 +79,16 @@ header.primary .engage ul:after  {
 }
 
 
-header.primary .engage .subscribe {
+header.primary .engage .subscribe,
+header nav.menu .button {
 	background-color: #0073C6;
+}
+
+header nav.menu .button {
+	width: 8rem;
+	margin-left: 1rem;
+	margin-bottom: 1.5rem;
+	text-align: center;
 }
 
 header.primary .engage .login a {
