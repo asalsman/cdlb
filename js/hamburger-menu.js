@@ -1,24 +1,42 @@
-var sidebarBox = document.querySelector('#box'),
-    sidebarBtn = document.querySelector('#btn'),
-    pageWrapper = document.querySelector('#page-wrapper');
+$(document).ready(function(){
+  
+  var menu = $(".menu");
+  var hamburger = $(".hamburger");
+  var line = $(".line");
+  var menuOpen;
+  
+  function openMenu(){
+    menu.css("left", "0px");
+    line.css("background", "#FFF");
+    menuOpen = true;
+  }
+  
+  function closeMenu(){
+    menu.css("left", "-320px");
+    line.css("background", "#222");
+    menuOpen = false;
+  }
+  
+  function toggleMenu(){
+    if (menuOpen) {
+      closeMenu();
+    } else {
+      openMenu();
+    }
+  }
+ 
+  hamburger.on({
+    mouseon: function(){
+      openMenu();
+    }
+  });
+  
+  hamburger.on({
+    click: function(){
+      toggleMenu();
+    }
+  })
+  
+  
 
-sidebarBtn.addEventListener('click', function (event) {
-        sidebarBtn.classList.toggle('active');
-        sidebarBox.classList.toggle('active');
-});
-
-pageWrapper.addEventListener('click', function (event) {
-
-        if (sidebarBox.classList.contains('active')) {
-                sidebarBtn.classList.remove('active');
-                sidebarBox.classList.remove('active');
-        }
-});
-
-window.addEventListener('keydown', function (event) {
-
-        if (sidebarBox.classList.contains('active') && event.keyCode === 27) {
-                sidebarBtn.classList.remove('active');
-                sidebarBox.classList.remove('active');
-        }
 });

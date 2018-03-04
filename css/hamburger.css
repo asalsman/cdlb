@@ -1,0 +1,49 @@
+.hamburger {
+  z-index: 2;
+  cursor: pointer;
+  width: 80px;
+  float: left;
+  margin: .5em 0 .5em 2em;
+  margin-top: calc(.5em + 2px);
+}
+
+.line {
+  width: auto;
+  height: 3px;
+  background: #222;
+  margin-bottom: 7px;
+}
+
+.menu {
+  width: 320px;
+  height: 100%;
+  background: #222;
+  position: absolute;
+  top: 44px;
+  left: -320px;
+  transition: left .1s;
+}
+
+/*
+.menu-item:first-child {
+  margin-top: 180px;
+}
+*/
+
+.menu--open {
+  left: 0;
+}
+
+.menu-item a,
+.meun-item.form {
+  color: #fff;
+  width: 100%;
+  display: block;
+  padding: .5rem 1rem;
+  box-sizing: border-box;
+
+}
+
+.menu-item a:hover {
+  cursor: pointer;
+}
