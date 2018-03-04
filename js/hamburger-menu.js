@@ -8,12 +8,14 @@ $(document).ready(function(){
   function openMenu(){
     menu.css("left", "0px");
     line.css("background", "#FFF");
+    hamburger.addClass('active');
     menuOpen = true;
   }
   
   function closeMenu(){
     menu.css("left", "-320px");
     line.css("background", "#222");
+    hamburger.removeClass('active')
     menuOpen = false;
   }
   
