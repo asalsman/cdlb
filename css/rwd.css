@@ -15,6 +15,30 @@
 	body {
 		background-color: #00f;
 	}
+
+	.top-of-page {
+		width: 100%;
+		max-width: 100%;
+		margin: 0 1em;
+		display: block;
+
+	}
+
+	.top-of-page .center {
+		width: 100%;
+		min-width: 100%;
+		border: 0;
+	}
+
+	section.advertising img {
+		width: 100%;
+	}
+
+	header .logo img {
+		width: 90%;
+	}
+
+
 }
 
 @media screen and (max-width: 480px) {

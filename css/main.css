@@ -47,9 +47,12 @@ h3 {
 	display: flex;
 }
 
+
+
 .top-of-page .left {
 	width: auto;
 	padding: 0 1em;
+	order: 1;
 }
 
 .top-of-page .center {
@@ -57,8 +60,12 @@ h3 {
 	border-left: 1px solid #999;
 	min-width: 740px;
 	width: 740px;
+	order: 2;
 }
 
+.top-of-page .rail {
+	order: 3;
+}
 
 .top-of-page .center > div,
 .top-of-page .left > div {
