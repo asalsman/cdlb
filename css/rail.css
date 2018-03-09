@@ -3,9 +3,14 @@ Desktop Max Width: 322px;
 */
 
 .rail {
-	width: 356px;
+	min-width: 300px;
+	width: 300px;
 	padding: 0 1em;
 	border-left: 1px solid #ccc;
+}
+
+.rail .ad img {
+	width: 100%;
 }
 
 .rail > div {

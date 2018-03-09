@@ -50,7 +50,7 @@ h3 {
 
 
 .top-of-page .left {
-	width: auto;
+	width: 300px;
 	padding: 0 1em;
 	order: 1;
 }
@@ -58,8 +58,8 @@ h3 {
 .top-of-page .center {
 	padding: 0 1em;
 	border-left: 1px solid #999;
-	min-width: 740px;
-	width: 740px;
+	max-width: 706px;
+	/* width: 706px; */
 	order: 2;
 }
 
@@ -329,7 +329,13 @@ figure figcaption {
 
 /* Sections */
 section.two-col {
-	margin: 1em 1.5em 0 4em;
+	margin: 1em 1.5em 1em 4em;
+	max-width: 1359px;
+	display: flex;
+}
+
+section.two-col .left-slider {
+	width: 100%;
 }
 
 section.two-col h4 {
