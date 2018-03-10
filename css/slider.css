@@ -1,0 +1,127 @@
+/* slider */
+.slider-container {
+	background-color: #eee;
+	width: 100%;
+	position: relative;
+}
+
+.slider {
+  width: calc(100% - 40px);
+  height: auto;
+  display: flex;
+  padding-left: 2em;
+}
+
+.slider .slide {
+  width: 600px;
+  flex-shrink: 0;
+  height: 100%;
+  margin: 1em;
+}
+
+.slider .slide img {
+	width: 100%;
+	margin-bottom: .5em;
+}
+
+.slider-container header h3 {
+	color: #903;
+	text-transform: uppercase;
+	margin: .75em 0 .5em 3em;
+	font-weight: bold;	
+	float-left;
+	display: inline-block;
+}
+
+.slider-container header h3 span {
+	text-transform: none;
+}
+
+.slider-container header .controls {
+	float: right;
+	margin: .25em 3em .5em 0;	
+	font-size: 2em;
+	line-height: 1em;
+	font-weight:bold;
+	font-family: garamond;
+	color: #999;
+}
+
+.slider-container header .controls span.active {
+	color: #000;
+}
+
+.slide .date {
+	float: left;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.slide .date .month {
+	font-size: .75em;
+	font-weight: bold;
+}
+
+.slide .date .date {
+	float: none;
+	font-weight: bold;
+	font-size: 1.6em;
+}
+
+.slide .date .day {
+	font-weight: bold;
+	font-size: .75em;
+}
+
+.slide h4 {
+	margin-left: 4.5em;
+	text-align: left;
+}
+
+/* Slick Theme overrides */
+.slider-container .slick-dots {
+	position: static;
+}
+
+.slick-prev,
+.slick-next {
+	z-index: 5;
+}
+
+.slick-prev {
+	left: 16px;
+}
+
+/* Events Slider */
+.events-slider-day .h-event {
+	margin-bottom: .5em;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 1em;
+}
+
+.events-slider .p-name {
+	font-weight: bold;
+	color: #000;
+	text-transform: none;
+	font-family: Garamond;
+	font-size: 1.1em;
+}
+
+.events-slider-day .h-event .p-location {
+	font-size: 75%;
+	line-height: 1.5em;
+}
+
+.events-slider-day .h-event time {
+	display: block;
+	float: right;
+	border: 2px solid #903;
+	width: 5em;
+	padding: .25em 0;
+	font-size: 80%;
+	text-align: center;
+}
+
+.events-slider-day .h-event time span {
+	display: none;
+}
