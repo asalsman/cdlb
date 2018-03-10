@@ -256,8 +256,14 @@ section.two-col {
 	display: flex;
 }
 
-section.two-col .left-slider {
+section.two-col.slider {
+	margin: 2em 1.5em 1em 1em;
+}
+
+section.two-col .two-col-slider {
 	width: 100%;
+	display: block;
+	max-width: 1026px;
 }
 
 section.two-col h4 {
@@ -291,7 +297,7 @@ section.two-col > div > div:first-child ul li div:last-child {
 	font-size: 75%;
 }
 
-section.two-col > div > div:nth-child(2) {
+section.two-col.linklists > div > div:nth-child(2) {
 	width: calc(100% - 20em - 357px);
 }
 

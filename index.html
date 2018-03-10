@@ -311,9 +311,49 @@
 				</form>
 			</div>
 		</section>
-		<section class="two-col">
-			<div class="left-slider">
-				Mini-slider here
+		<section class="two-col slider">
+			<div class="two-col-slider">
+				<h3 class="overline">Social Scene</h3>
+
+			<div class="slides">
+				<div class="events-slider-large">
+					<div class="h-event">
+						<img src="http://via.placeholder.com/740x420" />
+						<div class="tease p-summary">
+							<span class="dateline">Springfield &mdash;</span> State lawmakers are looking to add legal protection for people who rescue cats or dogs.
+						</div>
+						<a href="" class="dt-start" datetime="2018-03-15 12:00">
+							Monday, 3/15/2018 <span>12:00</span>
+						</a>
+					</div>
+					<img src="http://via.placeholder.com/740x420" />
+				</div>
+				<div class="events-slider-large">
+					<div class="h-event">
+						<img src="http://via.placeholder.com/740x420" />
+						<div class="tease p-summary">
+							<span class="dateline">Springfield &mdash;</span> State lawmakers are looking to add legal protection for people who rescue cats or dogs.
+						</div>
+						<a href="" class="dt-start" datetime="2018-03-15 12:00">
+							Tuesday 3/16/2018 <span>12:00</span>
+						</a>
+					</div>
+					<img src="http://via.placeholder.com/740x420" />
+				</div>
+				<div class="events-slider-large">
+					<div class="h-event">
+						<img src="http://via.placeholder.com/740x420" />
+						<div class="tease p-summary">
+							<span class="dateline">Springfield &mdash;</span> State lawmakers are looking to add legal protection for people who rescue cats or dogs.
+						</div>
+						<a href="" class="dt-start" datetime="2018-03-15 12:00">
+							Wednesday 3/17/2018 <span>12:00</span>
+						</a>
+					</div>
+					<img src="http://via.placeholder.com/740x420" />
+				</div>
+
+			</div>
 			</div>
 			<aside class="rail">
 				<h3 class="overline">Upcoming Events</h3>
@@ -439,7 +479,7 @@
 				<div class="cf"></div>
 			</div>
 		</section>
-		<section class="two-col">
+		<section class="two-col linklists">
 			<h4>Courts &amp; Cases</h4>
 			<div>
 				<div>
@@ -580,7 +620,13 @@
 		<script src="js/hamburger-menu.js"></script>
 		<script src="js/slick.js"></script>
 		<script>
-			// Events Slider
+
+			// Events Slider Large
+			$(".two-col-slider .slides").slick({
+        		dots: true, infinite: false, centerMode: false, slidesToShow: 1, slidesToScroll: 1, initialSlide: 0
+			});
+
+			// Events Slider Small
     		$(".events-slider").slick({
         		dots: true,
         		infinite: false,
@@ -589,7 +635,6 @@
         		slidesToScroll: 1,
         		initialSlide: 0
 			});
-
 
 			// Bottom of Page slider		
     		$(".slider.center").slick({
