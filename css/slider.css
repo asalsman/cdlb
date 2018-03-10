@@ -86,6 +86,7 @@
 .slick-prev,
 .slick-next {
 	z-index: 5;
+	background-color: #f00;
 }
 
 .slick-prev {
@@ -126,8 +127,24 @@
 	display: none;
 }
 
-/* Events Slider large */
+.events-slider-day h3 {
+	text-align: center;
+}
 
+.events-slider .slick-prev,
+.events-slider .slick-next {
+	top: 8px;
+}
+
+.events-slider .slick-prev {
+	left: 0;
+}
+
+.events-slider .slick-next {
+	right: 0;
+}
+
+/* Events Slider large */
 .events-slider-large {
 	width: 100%;
 }
@@ -174,4 +191,20 @@
 	width: calc(70% - 3.5em);
 	float: right;
 	padding: 0 1.5em 0 2em;
+}
+
+.events-slider .slick-prev {
+	left: 0;
+}
+
+.events-slider .slick-next {
+	right: 0;
+}
+
+.two-col-slider .slides .slick-prev  {
+	left: 3px;
+}
+
+.two-col-slider .slides .slick-next {
+	right: 3px;
 }
