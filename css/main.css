@@ -12,36 +12,7 @@ main {
 	max-width: 1359px;
 }
 
-a {
-	text-decoration: none;
-	color: #111;
-}
 
-a:hover {
-	text-decoration: underline;
-}
-
-h1, h2, h4 {
-	line-height: 1.25em;
-	margin-bottom: .25em;
-	font-family: Garamond, serif;
-	font-weight: bold;
-}
-
-h1 {
-	font-size: 1.5em;
-}
-
-
-h2 {
-	font-size: 1.2em;
-}
-
-h3 {
-	font-size: 1.1em;
-	line-height: 1.15em;
-	margin-bottom: .25em;
-}
 
 .top-of-page {
 	display: flex;
@@ -223,22 +194,6 @@ h3.overline,
 	top: -1em;
 }
 
-
-/* Figure */
-figure {
-	width: 100%;
-	font-size: .8em;
-	margin-bottom: 2em;
-}
-
-figure img {
-	width: 100%;
-	margin: 0;
-}
-
-figure figcaption {
-	margin: .25em 0 .5em 0;
-}
 
 /* Social */
 .social li img {
