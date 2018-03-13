@@ -44,6 +44,14 @@ h3 {
 	margin-bottom: .25em;
 }
 
+h3.overline {
+	margin-bottom: 1em;
+	color: #903;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 85%;
+}
+
 
 /* Top level navigation */
 nav.top-level,
@@ -67,8 +75,178 @@ figure figcaption {
 	margin: .25em 0 .5em 0;
 }
 
+/* Top of Page */
+.top-of-page .left .lede,
+.top-of-page .left .offlede {
+	display: none;
+}
+
+.top-of-page .lede {
+	margin-bottom: 1em;
+}
+
+.offlede div.image {
+	max-width: 10em;
+	float: right;
+}
+
+.offlede div.image img {
+	width: 100%;
+}
+
+.offlede ul {
+	clear: both;
+	width: 100%;
+}
+
+.lede ul,
+.offlede ul {
+	margin-top: .5em;
+	font-family: Garamond, serif;
+	font-weight: bold;
+	list-style-type: disc;
+}
+
+#people > div {
+	margin-bottom: 1.5em;
+}
+
+#people > div > div {
+	float: left;
+	width: 100px;
+	text-align: center;
+	font-size: 90%;
+	font-weight: bold;
+}
+
+#people img {
+	margin-bottom: .25em;
+	width: 100%;
+}
+#people > div p {
+	margin-left: calc(100px + 1em);
+	font-family: Garamond;
+	font-size: 100%;
+}
+
+#people > div:after  {
+	content: "."; 
+	visibility: hidden; 
+	display: block; 
+	height: 0; 
+	clear: both;
+}
+
+.byline {
+	margin-top: .25em;
+}
+
+
+/* Sponsored Content */
+.sponsored {
+	background-color: #eee;
+	margin: 1em -1em 1em -1em;
+	padding: 1em;
+}
+
+.sponsored .lede {
+	margin-bottom: 0;
+}
+
+.sponsored a {
+	text-decoration: none;
+}
+
+.sponsored .overline {
+	font-size: .6em;
+	text-transform: uppercase;
+	color: #FFA500;
+}
+
+
 /* Beltway */
 #beltway {
+	text-align: center;
+	margin: 1em auto;
+	padding: .5em 0;
+	background-color: #ccc;
+	clear: both;
+	margin-top: 1em;
+}
+
+#beltway > div {
+	width: 75%;
+	margin: 0 auto;
+}
+
+#beltway > div > img {
+	width: 60%;
+}
+
+#beltway div div img {
+	display: inline;
+	width: 48px;
+	height: 48px;
+}
+
+#beltway > div div {
+	margin: .5em 0;
+}
+
+#beltway div span {
+	display: inline-block;
+	position: relative;
+	top: -1em;
+}
+
+
+/* Rail */
+.rail {
+	border-left: 0;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.rail .ad {
+	border-bottom: 1px solid #ccc;
+	text-align: center;
+	margin-bottom: 1em;
+	padding-bottom: 1em;
+}
+
+.latest-edition > a {
+	float: left;
+	width: 130px;
+	height: 180px;
+	padding-right: .5em;
+	margin-left: .5em;
+}
+
+.latest-edition > div {
+	border: 1px solid #ccc;
+	margin-top: 1em;
+	position: relative;
+	top: 1em;
+	padding: .5em 0;
+}
+
+.referral { 
+	display: flex;
+	padding: 0 1em;
+}
+
+.referral img {
+	max-width: 160px;
+	height: 60px;
+	margin-right: .5em;
+}
+
+
+.rail .latest-edition {
+	display: none;
+}
+
+main + section.advertising {
 	display: none;
 }
 
