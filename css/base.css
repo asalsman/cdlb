@@ -287,6 +287,7 @@ header.primary .engage li.login a {
 footer {
 	clear: both;
 	padding-top: 1em;
+	overflow: hidden;
 }
 
 footer nav,
@@ -320,4 +321,36 @@ footer .contact .logo {
 
 footer .contact .logo img {
 	width: 50%;
+}
+
+/* Article */
+.article main,
+.article .article-body {
+	display: block;
+}
+
+.article main article {
+		min-width: 100%;
+}
+
+main article .article-tools {
+	display: none;
+}
+
+main article .byline {
+	margin-bottom: 1em;
+	font-size: .75em;
+	color: #4cedff;
+}
+
+main article .byline a {
+	color: #4cedff;
+}
+
+main article p {
+	margin: 1em 0;
+}
+
+#more-stories {
+	display: none;
 }

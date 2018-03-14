@@ -211,6 +211,10 @@ section.two-col {
 	display: flex;
 }
 
+section.slider-container {
+	margin: 0;
+}
+
 section.two-col.slider {
 	margin: 2em 1.5em 1em 1em;
 }
