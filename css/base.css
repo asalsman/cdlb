@@ -330,10 +330,10 @@ footer .contact .logo img {
 }
 
 .article main article {
-		min-width: 100%;
+	min-width: 100%;
 }
 
-main article .article-tools {
+.article-body aside {
 	display: none;
 }
 
@@ -351,6 +351,6 @@ main article p {
 	margin: 1em 0;
 }
 
-#more-stories {
+.article #more-stories {
 	display: none;
 }

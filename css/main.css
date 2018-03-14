@@ -215,8 +215,9 @@ section.slider-container {
 	margin: 0;
 }
 
-section.two-col.slider {
+.two-col.slider {
 	margin: 2em 1.5em 1em 1em;
+	display: flex;
 }
 
 section.two-col .two-col-slider {
