@@ -354,3 +354,7 @@ main article p {
 .article #more-stories {
 	display: none;
 }
+
+.breaking-news {
+	display: none;
+}

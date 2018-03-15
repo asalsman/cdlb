@@ -5,10 +5,11 @@
 	flex: 1;
 	flex-direction: row;
 	max-width: 1359px;
+	margin: 1em auto;
 }
 
 .article main article {
-	min-width: 790px;
+	min-width: calc(980px - 4em - 301px);
 	width: auto;
 	margin: 0 1em;
 }

@@ -7,7 +7,7 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
 }
 
-main {
+body > main {
 	margin: 1.5em auto;
 	max-width: 1359px;
 }
@@ -175,7 +175,7 @@ h3.overline,
 }
 
 #beltway > div > img {
-	width: 60%;
+	width: 50%;
 }
 
 #beltway div div img {
@@ -208,7 +208,6 @@ h3.overline,
 section.two-col {
 	margin: 1em 1.5em 1em 4em;
 	max-width: 1359px;
-	display: flex;
 }
 
 section.slider-container {
@@ -218,12 +217,14 @@ section.slider-container {
 .two-col.slider {
 	margin: 2em 1.5em 1em 1em;
 	display: flex;
+
 }
 
 section.two-col .two-col-slider {
 	width: 100%;
 	display: block;
 	max-width: 1026px;
+	min-width: calc(980px - 4em - 301px);
 }
 
 section.two-col h4 {
@@ -238,8 +239,10 @@ section.two-col > div {
 }
 
 section.two-col > div > div:first-child {
-	width: 18em;
+	min-width: calc(980px - 8em - 301px);
+	width: 100%;
 	margin: 0 4em 0 6em;
+	display: flex;
 }
 
 section.two-col > div > div:first-child ul li {
@@ -266,4 +269,56 @@ section.two-col.linklists > div > div:nth-child(2) {
 	font-size: 80%;
 	font-weight: bold;
 	text-transform: uppercase;
+}
+
+@media screen and (min-width: 980px) {
+
+	.top-of-page .left .lede,
+	.top-of-page .left .offlede {
+		display: block;
+	}
+
+	.breaking-news {
+		display: block;
+		width: 100%;
+		background-color: #903;
+		margin-top: .5em;
+		position: relative;
+	}
+
+	.breaking-news span {
+		padding: 1em .5em;
+		background-color: #000;
+		color: #fff;
+		text-transform: uppercase;
+		font-weight: bold;
+		display: inline-block;
+	}
+
+	.breaking-news a {
+		font-family: Garamond;
+		font-size: 1.5em;
+		color: #fff;
+		font-weight: bold;
+		margin-left: .5em;
+	}
+
+	.breaking-news button {
+		position: absolute;
+		right: 1em;
+		top: 2px;
+		font-weight: bold;
+		background-color: #D47F94;
+		height: 1.8em;
+		width: 1.8em;
+		border-radius: 2em;
+		border: 0;
+		font-size: 1.5em;
+		color: #fff;
+	}
+
+	.rail .latest-edition {
+		display: block;
+	}
+
 }

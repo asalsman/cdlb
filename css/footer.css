@@ -5,6 +5,7 @@ footer {
 	margin: 0 auto;
 	max-width: 100%;
 	border-top: 1px solid #999;
+	padding-top: 0;
 }
 
 footer nav {
@@ -37,6 +38,7 @@ footer nav {
 footer .social,
 footer .contact {
 	width: 100%;
+	display: block;
 }
 
 footer .social ul,
@@ -58,6 +60,11 @@ footer .contact li {
 	border-right: 1px solid #fff;
 	padding-right: 1em;
 	margin-right: 0;
+	width: auto;
+}
+
+footer .contact li br {
+	display: none;
 }
 
 footer .contact li:nth-last-child(2) {
@@ -68,8 +75,12 @@ footer .contact .logo {
 	margin: 0 0 0 5em;
 	top: 0;
 	border-right: 0;
+	position: static;
 }
 
+footer .contact .logo img {
+	width: auto;
+}
 
 footer nav ul {
 	width: 25%;

@@ -12,13 +12,14 @@ Widths: 1280px
 	}
 }
 
-@media screen and (max-width: 980px) {
+@media screen and (min-width: 980px) {
 	body {
 		background-color: #0f0;
 	}
+
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
 	body {
 		background-color: #00f;
 	}
@@ -45,10 +46,4 @@ Widths: 1280px
 	}
 
 
-}
-
-@media screen and (max-width: 480px) {
-	body {
-		background-color: #fff;
-	}
 }

@@ -112,6 +112,11 @@
 				</ul>
 			</nav>
 		</header>
+		<div class="breaking-news">
+			<span>Breaking</span>
+			<a href="">Benefits off limits for wife after killing husband</a>
+			<button>X</button>
+		</div>
 		<main>
 			<section class="top-of-page">
 				<div class="center">
@@ -242,6 +247,7 @@
 			<h4>Courts &amp; Cases</h4>
 			<div>
 				<div>
+					<div>
 					<ul>
 						<li>
 							<a href="">
@@ -280,9 +286,10 @@
 							</a>
 						</li>
 					</ul>
-				</div>
-				<div>
-					Center
+					</div>
+					<div>
+						Center
+					</div>
 				</div>
 				<aside class="rail">
 					<div class="latest-edition">
@@ -294,7 +301,7 @@
 		</section>
 		<section id="beltway">
 			<div>
-				<img src="images/cdlb-banner.jpg" />
+				<img src="images/cdlb.png" />
 				<div>
 					<span>Be in the Know.</span>
 					<img src="images/social-icons/mail.png" />
@@ -625,7 +632,12 @@
 
 			// Events Slider Large
 			$(".two-col-slider .slides").slick({
-        		dots: true, infinite: false, centerMode: false, slidesToShow: 1, slidesToScroll: 1, initialSlide: 0
+        		dots: true,
+        		infinite: true,
+        		centerMode: false,
+        		slidesToShow: 1,
+        		slidesToScroll: 1,
+        		initialSlide: 0
 			});
 
 			// Events Slider Small
