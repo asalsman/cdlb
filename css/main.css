@@ -278,7 +278,7 @@ section.two-col.linklists > div > div:nth-child(2) {
 		display: block;
 	}
 
-	.breaking-news {
+	#breaking-news {
 		display: block;
 		width: 100%;
 		background-color: #903;
@@ -286,7 +286,11 @@ section.two-col.linklists > div > div:nth-child(2) {
 		position: relative;
 	}
 
-	.breaking-news span {
+	#breaking-news.closed {
+		display: none;
+	}
+
+	#breaking-news span {
 		padding: 1em .5em;
 		background-color: #000;
 		color: #fff;
@@ -295,7 +299,7 @@ section.two-col.linklists > div > div:nth-child(2) {
 		display: inline-block;
 	}
 
-	.breaking-news a {
+	#breaking-news a {
 		font-family: Garamond;
 		font-size: 1.5em;
 		color: #fff;
@@ -303,7 +307,7 @@ section.two-col.linklists > div > div:nth-child(2) {
 		margin-left: .5em;
 	}
 
-	.breaking-news button {
+	#breaking-news button {
 		position: absolute;
 		right: 1em;
 		top: 2px;
