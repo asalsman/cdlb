@@ -321,6 +321,10 @@ section.two-col.linklists > div > div:nth-child(2) {
 		color: #fff;
 	}
 
+	#breaking-news button:hover {
+		cursor: pointer;
+	}
+
 	.rail .latest-edition {
 		display: block;
 	}
