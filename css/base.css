@@ -358,3 +358,60 @@ main article p {
 #breaking-news {
 	display: none;
 }
+
+
+section#four-box {
+	margin: 3em;
+}
+section#four-box ul {
+	width: 100%;
+	display: block;
+}
+
+section#four-box ul li {
+	width: 100%;
+	float: left;
+	display: flex;
+	margin-bottom: 4em;
+}
+
+section#four-box ul li img {
+	width: 100px;
+	height: 100px;
+	margin-right: 1em;
+}
+
+section#four-box ul li > div {
+	margin-right: 1em;
+}
+
+section#four-box ul li a {
+	display: block;
+	margin: .75em 0;
+}
+
+section#four-box ul li .twitter-handle {
+	font-size: .75em;
+	margin-top: 1.25em;
+}
+
+@media screen and (min-width: 768px) {
+	section#four-box ul li {
+		width: 50%;
+		float: left;
+	}
+}
+
+@media screen and (min-width: 980px) {
+	section#four-box ul li {
+		width: 33%;
+		float: left;
+	}
+}
+
+@media screen and (min-width: 1280px) {
+	section#four-box ul li {
+		width: 25%;
+		float: left;
+	}
+}

@@ -346,14 +346,12 @@ section.two-col.topic-page > div > div:first-child {
 }
 
 section.two-col.topic-page > div > div:first-child > div:first-child {
-	max-width: 520px;
-	width: 520px;
+	width: 55%;
 	margin-right: 2em;
 }
 
 section.two-col.topic-page > div > div:first-child > div:last-child {
-	width: 433px;
-	max-width: 433px;
+	width: 45%;
 	margin-right: 1em;
 }
 
