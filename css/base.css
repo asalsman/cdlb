@@ -347,7 +347,7 @@ main article .byline a {
 	color: #4cedff;
 }
 
-main article p {
+p {
 	margin: 1em 0;
 }
 
@@ -394,6 +394,52 @@ section#four-box ul li .twitter-handle {
 	font-size: .75em;
 	margin-top: 1.25em;
 }
+
+main {
+	display: flex;
+	max-width: 1359px;
+}
+
+main section {
+	width: 980px;
+	max-width: 980px;
+	min-width: calc(980px - 4em - 301px);
+}
+
+.row {
+	width: 100%;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 1.5em;
+	margin-bottom: 1.5em;
+}
+
+.row.split {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.row.split h1 {
+	flex: 0 0 100%;
+}
+
+.row.split > div {
+	margin-right: 1.5em;
+	width: calc(50% - 1.5em);
+}
+
+.row.split > div:last-child {
+	margin-left: 1.5em;
+	width: calc(50% - 1.5em);
+	margin-right: 0;
+}
+
+.byline {
+	margin-bottom: 1em;
+    font-size: .75em;
+    color: #4cedff;
+}
+
 
 @media screen and (min-width: 768px) {
 	section#four-box ul li {
