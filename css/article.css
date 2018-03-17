@@ -114,6 +114,38 @@ main article header {
 	float: right;
 }
 
+.article.alternate .byline {
+	display: flex;
+	font-size: 1em;
+}
+
+.article.alternate .byline img {
+	width: 70px;
+	height: 70px;
+	margin-right: 1em;
+	border: 1px solid #ccc;
+}
+
+.article.alternate .byline {
+	color: #111;
+}
+
+.article.alternate .byline .byttl {
+	display: inline;
+}
+
+.article.alternate .column-name {
+	font-weight: bold;
+	color: #666;
+	font-size: 2em;
+	margin-top: .25em;
+	margin-bottom: .25em;
+}
+
+.article.alternate .article-body {
+	border-top: 1px solid #ccc;
+}
+
 @media screen and (min-width: 980px) {
 	.article #more-stories {
 		display: flex;
