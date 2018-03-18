@@ -5,6 +5,7 @@
 		</title>
 		<link href="css/section.css" rel="stylesheet" />
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="js/jquery-ui.min.js"></script>
 	</head>
 	<body class="about-us">
 		<header class="primary">
@@ -127,14 +128,28 @@
 				</div>
 				<div class="row full">
 					<h4>Our Products</h4>
-					<div>
-						<h3>tabbed widget goes here</h3>
+<div id="tabbed-widget">
+    <ul>
+        <li><a href="#t1"><span>CDLB</span></a></li>
+        <li><a href="#t2"><span>Chicago Daily Law Bulletin</span></a></li>
+    </ul>
+    <div id="t1">
 						<p>It was Saturday, Jan. 8, 1972, and Law Bulletin President Lanning Macfarland Jr. was thinking about the weather.</p>
 						<p>For 100 years starting in April 1872, Law Bulletin Publishing Company had operated in the Loop, leasing various spaces in seven buildings in 16 square blocks between the river and Clark Street and Monroe and Lake streets.</p>
 						<p>The last 59 of those years were spent at either 179 W. Washington St. or 30 N. LaSalle St.</p>
 						<p>That area had become even more prized in 1965 when the Civic Center — now the Daley Center — became operational, centralizing the Cook County Circuit Court just east of the Law Bulletin’s office.</p>
 						<p>Macfarland, though, sensed rough seas ahead for the company that today celebrates its 160th birthday.</p>
 						<p>He knew that until the company owned its own offices, there was always the danger of a new landlord removing the tenants and demolishing their building.</p>
+    </div>
+    <div id="t2">
+						<p>He knew that until the company owned its own offices, there was always the danger of a new landlord removing the tenants and demolishing their building.</p>
+						<p>Macfarland, though, sensed rough seas ahead for the company that today celebrates its 160th birthday.</p>
+						<p>That area had become even more prized in 1965 when the Civic Center — now the Daley Center — became operational, centralizing the Cook County Circuit Court just east of the Law Bulletin’s office.</p>
+						<p>The last 59 of those years were spent at either 179 W. Washington St. or 30 N. LaSalle St.</p>
+						<p>For 100 years starting in April 1872, Law Bulletin Publishing Company had operated in the Loop, leasing various spaces in seven buildings in 16 square blocks between the river and Clark Street and Monroe and Lake streets.</p>
+						<p>It was Saturday, Jan. 8, 1972, and Law Bulletin President Lanning Macfarland Jr. was thinking about the weather.</p>
+    </div>
+</div>
 					</div>
 
 				</div>
@@ -272,5 +287,10 @@
 			</div>
 		</footer>
 		<script src="js/hamburger-menu.js"></script>
+<script>
+$(function () {
+        $("#tabbed-widget").tabs();
+    });
+</script>
 	</body>
 </html>
