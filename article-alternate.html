@@ -112,6 +112,28 @@
 				</ul>
 			</nav>
 		</header>
+		<section id="story-slider">
+			<div class="slide">
+				<h4>$190M headed to LCD purchasers in state</h4>
+				<img src="file://users/Users/adam/Sites/cdlb/images/headshot-200x200-f.png" />
+			</div>
+			<div class="slide">
+				<h4>$190M headed to LCD purchasers in state</h4>
+				<img src="file://users/Users/adam/Sites/cdlb/images/headshot-200x200-f.png" />
+			</div>
+			<div class="slide">
+				<h4>$190M headed to LCD purchasers in state</h4>
+				<img src="file://users/Users/adam/Sites/cdlb/images/headshot-200x200-f.png" />
+			</div>
+			<div class="sponsored slide">
+				<span class="overline">SPONSORED CONTENT or AD POSITION</span>
+				<h4>City Council considers use of ‘Textalyzer’ technology</h4>
+			</div>
+			<div class="slide">
+				<h4>$190M headed to LCD purchasers in state</h4>
+				<img src="file://users/Users/adam/Sites/cdlb/images/headshot-200x200-f.png" />
+			</div>
+		</section>
 		<main>
 			<article>
 				<header>
@@ -441,6 +463,14 @@
         slidesToScroll: 1,
         initialSlide: 1,
         appendDots: $('section.slider-container .controls')
+      });
+      $("#story-slider").slick({
+        dots: false,
+        infinite: true,
+        centerMode: true,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        initialSlide: 0
       });
      </script>
 	</body>

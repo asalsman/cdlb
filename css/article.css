@@ -146,6 +146,47 @@ main article header {
 	border-top: 1px solid #ccc;
 }
 
+
+
+body > section#story-slider {
+	border-top: 2px solid #ccc;
+	border-bottom: 2px solid #ccc;
+	margin: 1em 0 0 0;
+}
+
+#story-slider .slide {
+	border-right: 1px solid #ccc;
+	padding: .5em 1em;
+	display: flex;
+	flex: 1;
+	padding-bottom: 0em;
+	height: 75px;
+	overflow: hidden;
+}
+
+#story-slider .slide img {
+	width: 70px;
+	height: 70px;
+	margin: 0em 0 .5em .5em;
+}
+
+#story-slider .slide h4 {
+	width: calc(100% - 70px - .5em);
+	font-size: 1.75em;
+	margin: 0;
+}
+
+#story-slider .slide.sponsored {
+	display: block;
+	margin: 0;
+	padding-bottom: 4px;
+	height: 71px;
+}
+
+#story-slider .slick-slide.sponsored span {
+	display: block;
+}
+
 @media screen and (min-width: 980px) {
 	.article #more-stories {
 		display: flex;

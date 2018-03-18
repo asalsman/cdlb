@@ -234,7 +234,9 @@ section.two-col h4 {
 	font-family: Arial, Helvetica;
 }
 
-
+#story-slider {
+	display: block;
+}
 
 
 
