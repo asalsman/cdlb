@@ -20,6 +20,9 @@ a:hover {
 	text-decoration: underline;
 }
 
+a[href^="tel:"] {
+	color: #80B6D2;
+}
 
 /* H-tags */
 h1, h2, h4 {
@@ -52,6 +55,9 @@ h3.overline {
 	font-size: 85%;
 }
 
+strong {
+	font-weight: bold;
+}
 
 /* Top level navigation */
 nav.top-level,
@@ -340,11 +346,11 @@ footer .contact .logo img {
 main article .byline {
 	margin-bottom: 1em;
 	font-size: .75em;
-	color: #4cedff;
+	color: #80B6D2;
 }
 
 main article .byline a {
-	color: #4cedff;
+	color: #80B6D2;
 }
 
 p {
@@ -439,7 +445,7 @@ main section {
 .byline {
 	margin-bottom: 1em;
     font-size: .75em;
-    color: #4cedff;
+    color: #80B6D2;
 }
 
 .row.full {
@@ -563,6 +569,26 @@ background-image: url('../images/tabbed_widget-down_arrow.png');
     content:"";
     background-position: center center;
     background-repeat: no-repeat;
+}
+
+.contact-us .row {
+	font-size: 85%;
+}
+
+.contact-us .row > p {
+	margin-right: 40%;
+}
+
+.contact-us .row .overline {
+	font-size: 100%;
+}
+
+.contact-us .row a + label {
+	padding-left: 1em;
+}
+
+.contact-us .row.split ul + h3 {
+	margin-top: 3em;
 }
 
 @media screen and (min-width: 768px) {

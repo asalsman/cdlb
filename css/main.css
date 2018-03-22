@@ -389,6 +389,46 @@ section.two-col.linklists > div > div:nth-child(2) {
 	.rail .latest-edition {
 		display: block;
 	}
-
 }
 
+#email-sub {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+#email-sub legend {
+	flex: 0 0 100%;
+	margin-bottom: 1em;
+}
+
+#email-sub > div {
+	width: 50%;
+}
+
+#email-sub > div > div {
+	margin-bottom: .5em;
+}
+
+#email-sub span {
+	display: block;
+	margin-top: 1em;
+	flex: 0 0 100%;
+}
+
+#email-sub span input {
+	font-size: 1em;
+	border: 1px solid #ccc;
+	padding: .25em;
+	margin: 0;
+	height: 2.7em;
+	width: calc(100% - 144px);
+}
+
+#email-sub span input[type=submit] {
+	padding: 1em;
+	border-left: none;
+	height: auto;
+	width: auto;
+	text-transform: lowercase;
+}
