@@ -132,11 +132,14 @@ main article header {
 #story-slider .slide {
 	border-right: 1px solid #ccc;
 	padding: .5em 1em;
-	display: flex;
-	flex: 1;
 	padding-bottom: 0em;
 	height: 75px;
 	overflow: hidden;
+}
+
+#story-slider .slide a {
+	display: flex;
+	flex: 1;
 }
 
 #story-slider .slide img {
@@ -158,6 +161,11 @@ main article header {
 	height: 71px;
 }
 
+#story-slider .slide.sponsored a {
+	display: block;
+}
+
+
 #story-slider .slick-slide.sponsored span {
 	display: block;
 }
@@ -172,4 +180,8 @@ main article header {
 
 .article #more-stories {
 	display: flex;
+}
+
+.article h1 {
+	font-size: 3em;
 }

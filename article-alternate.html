@@ -455,15 +455,6 @@
 		<script src="js/hamburger-menu.js"></script>
 		<script src="js/slick.js"></script>
 		<script>
-      $(".slider.center").slick({
-        dots: true,
-        infinite: false,
-        centerMode: true,
-        slidesToShow: 2,
-        slidesToScroll: 1,
-        initialSlide: 1,
-        appendDots: $('section.slider-container .controls')
-      });
       $("#story-slider").slick({
         dots: false,
         infinite: true,
@@ -471,6 +462,15 @@
         slidesToShow: 3,
         slidesToScroll: 1,
         initialSlide: 0
+      });
+      $(".slider.center").slick({
+        dots: true,
+        infinite: true,
+        centerMode: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        initialSlide: 1,
+        appendDots: $('section.slider-container .controls')
       });
      </script>
 	</body>

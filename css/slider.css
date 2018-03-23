@@ -6,11 +6,31 @@
 	margin: 0;
 }
 
+.slider-container .slick-prev,
+.slider-container .slick-next {
+	top: 40%;
+}
+
+.slider-container .slick-next {
+	right: 20px;
+}
+
 .slider {
-  width: calc(100% - 40px);
+  width: 100%;
   height: auto;
   display: flex;
-  padding-left: 2em;
+  padding-left: 0;
+  flex: 0 0 100%;
+}
+
+@media screen and (min-width: 980px) {
+
+
+	.slider-container .slick-prev,
+	.slider-container .slick-next {
+		top: 50%;
+	}
+
 }
 
 .slider .slide {
