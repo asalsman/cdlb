@@ -18,28 +18,6 @@
 	margin: 1em 0;
 }
 
-.article main article h1 {
-	font-size: 3em;
-	line-height: 1em;
-}
-
-.article main article .overline {
-	text-transform: uppercase;
-	font-size: .75em;
-	color: #903;
-	font-weight: bold;
-}
-
-.article main article .byline {
-	margin-bottom: 1em;
-	font-size: .75em;
-	color: #4cedff;
-}
-
-main article .byline a {
-	color: #4cedff;
-}
-
 .byline .byttl {
 	display: block;
 	color: #111;
@@ -96,10 +74,6 @@ main article .byline a {
 	width: calc(100% - 40px - 4em);
 }
 
-.article-body section p {
-	line-height: 1.25em;
-}
-
 main article header {
 	width: 100%;
 }
@@ -152,6 +126,7 @@ body > section#story-slider {
 	border-top: 2px solid #ccc;
 	border-bottom: 2px solid #ccc;
 	margin: 1em 0 0 0;
+	display: block;
 }
 
 #story-slider .slide {

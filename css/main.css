@@ -125,6 +125,7 @@ header.primary .logo {
   	position: sticky;
  	align-self: flex-start;
  	top: .5em;
+ 	border-bottom: 0;
 }
 
 .sponsored {
@@ -297,12 +298,6 @@ section.two-col h4 {
 	color: #903;
 	font-family: Arial, Helvetica;
 }
-
-#story-slider {
-	display: block;
-}
-
-
 
 section.two-col > div > div:first-child ul li {
 	margin-bottom: 1em;
@@ -495,4 +490,69 @@ section.two-col.linklists > div > div:nth-child(2) {
 	height: auto;
 	width: auto;
 	text-transform: lowercase;
+}
+
+/* Full Row */
+.row.full {
+	margin: 1.5em 4em 2.5em 4em;
+	width: auto;
+}
+
+.row.full > div {
+	width: 60%;
+	margin: 0 auto;
+}
+
+.row.full.center-box > div {
+	width: 100%;
+}
+
+.center-box > div > div {
+	width: 60%;
+	padding: 3em;
+}
+
+.three-box li {
+	margin: .5em;
+	width: calc(33% - 1em);
+	max-height: 421px;
+	color: #ccc;
+}
+
+.three-box li:nth-child(1) { order: 1; }
+.three-box li:nth-child(2) { order: 4; }
+.three-box li:nth-child(3) { order: 5; }
+.three-box li:nth-child(4) { order: 2; }
+.three-box li:nth-child(5) { order: 3; }
+.three-box li:nth-child(6) { order: 6; }
+.three-box li:nth-child(4) h4 {
+	margin-top: 3em;
+}
+
+.about-us .row.full h5 {
+	font-size: 2em;
+	font-weight: bold;
+}
+
+
+/* Four Box */
+@media screen and (min-width: 768px) {
+	section#four-box ul li {
+		width: 50%;
+		float: left;
+	}
+}
+
+@media screen and (min-width: 980px) {
+	section#four-box ul li {
+		width: 33%;
+		float: left;
+	}
+}
+
+@media screen and (min-width: 1280px) {
+	section#four-box ul li {
+		width: 25%;
+		float: left;
+	}
 }
