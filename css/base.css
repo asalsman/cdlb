@@ -351,13 +351,13 @@ footer .contact .logo img {
 	line-height: 1.25em;
 }
 
-main article .byline {
+article .byline {
 	margin-bottom: 1em;
 	font-size: .75em;
 	color: #80B6D2;
 }
 
-main article .byline a {
+article .byline a {
 	margin-bottom: 1em;
 	color: #80B6D2;
 }
@@ -467,7 +467,10 @@ main {
 	justify-content: space-between;
 }
 
-.row.split h1 {
+.row > h1,
+.row > h2,
+.row > h3,
+.row > h4 {
 	flex: 0 0 100%;
 }
 
@@ -485,7 +488,16 @@ main {
 .byline {
 	margin-bottom: 1em;
     font-size: .75em;
-    color: #80B6D2;
+    color: #999;
+}
+
+.byline a {
+	color: #999;
+	text-decoration: underline;
+}
+
+.byline a:hover {
+	text-decoration: none;
 }
 
 .row.full {
@@ -637,4 +649,48 @@ background-image: url('../images/tabbed_widget-down_arrow.png');
 
 .about-us .row.full h5 span {
 	margin-left: 1.5em;
+}
+
+#email-sub {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+#email-sub legend {
+	flex: 0 0 100%;
+	margin-bottom: 1em;
+}
+
+#email-sub > div {
+	width: 100%;
+	flex: 0 0 100%;
+}
+
+#email-sub > div > div {
+	margin-bottom: .5em;
+}
+
+#email-sub span {
+	display: block;
+	margin-top: 1em;
+	flex: 0 0 100%;
+	text-align: center;
+}
+
+#email-sub span input {
+	font-size: 1em;
+	border: 1px solid #ccc;
+	padding: .25em;
+	margin: 0;
+	height: 2.7em;
+	width: 100%;
+}
+
+#email-sub span input[type=submit] {
+	margin-top: .5em;
+	padding: 1em;
+	height: auto;
+	width: auto;
+	text-transform: lowercase;
 }

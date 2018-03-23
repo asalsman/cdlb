@@ -14,6 +14,7 @@ body > main {
 }
 
 main > section {
+	max-width: 1359px;
 	min-width: calc(980px - 4em - 301px);
 }
 
@@ -277,6 +278,9 @@ h3.overline,
 section.two-col {
 	margin: 1em 1.5em 1em 4em;
 	max-width: 1359px;
+	display: flex;
+	flex: 1;
+	flex-direction: row;
 }
 
 section.slider-container {
@@ -301,25 +305,13 @@ section.two-col h4 {
 	text-transform: uppercase;
 	color: #903;
 	font-family: Arial, Helvetica;
+	flex: 0 0 100%;
 }
 
-section.two-col > div > div:first-child ul li {
-	margin-bottom: 1em;
-}
 
-section.two-col > div > div:first-child ul li div:first-child {
-	font-size: 100%;
-	font-family: garamond;
-	font-weight: bold;
-	line-height: 1.25em;
-}
+section.two-col {
 
-section.two-col > div > div:first-child ul li div:last-child {
-	font-size: 75%;
-}
 
-section.two-col.linklists > div > div:nth-child(2) {
-	width: calc(100% - 20em - 357px);
 }
 
 .leadout {
@@ -465,8 +457,11 @@ section.two-col.linklists > div > div:nth-child(2) {
 	margin-bottom: 1em;
 }
 
-#email-sub > div {
-	width: 50%;
+@media screen and (min-width: 768px) {
+	#email-sub > div {
+		width: 50%;
+		max-width: 50%;
+	}
 }
 
 #email-sub > div > div {
@@ -477,6 +472,7 @@ section.two-col.linklists > div > div:nth-child(2) {
 	display: block;
 	margin-top: 1em;
 	flex: 0 0 100%;
+	text-align: center;
 }
 
 #email-sub span input {
@@ -485,10 +481,11 @@ section.two-col.linklists > div > div:nth-child(2) {
 	padding: .25em;
 	margin: 0;
 	height: 2.7em;
-	width: calc(100% - 144px);
+	width: calc(100% - 82px);
 }
 
 #email-sub span input[type=submit] {
+	max-width: 71px;
 	padding: 1em;
 	border-left: none;
 	height: auto;
