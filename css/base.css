@@ -10,6 +10,14 @@ body > main {
 	margin: 1em;
 }
 
+.topic-page main section {
+	border-bottom: 0;
+}
+
+.topic-page .row.split .lede {
+	margin-bottom: 2em;
+}
+
 /* Anchor tags */
 a {
 	text-decoration: none;
@@ -47,12 +55,31 @@ h3 {
 	margin-bottom: .25em;
 }
 
-h3.overline {
+.overline {
 	margin-bottom: 1em;
 	color: #903;
 	text-transform: uppercase;
 	font-weight: bold;
-	font-size: 85%;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.overline.black {
+	color: #000;
+	text-transform: none;
+}
+
+h1.overline {
+	font-size: 2em;
+	text-transform: none;
+	margin-bottom: .5em;
+}
+
+h2.overline {
+	font-size: 1em;
+}
+
+h3.overline {
+	font-size: .85em;
 }
 
 strong {
@@ -100,6 +127,17 @@ figure figcaption {
 	width: 100%;
 }
 
+.offlede.square .image {
+	float: left;
+	margin-right: 1em;
+	width: 90px;
+	margin-bottom: .5em;
+}
+
+.offlede.square .image img{
+	height: 90px;
+	width: 90px;
+}
 .offlede ul {
 	clear: both;
 	width: 100%;
@@ -450,7 +488,7 @@ main {
 
 
 .row {
-	width: calc(100% - 1em);
+	width: 100%;
 	border-bottom: 1px solid #ccc;
 	padding-bottom: 1.5em;
 	margin-bottom: 1.5em;
@@ -461,28 +499,11 @@ main {
 	border-bottom: 0;
 }
 
-.row.split {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-}
-
 .row > h1,
 .row > h2,
 .row > h3,
 .row > h4 {
 	flex: 0 0 100%;
-}
-
-.row.split > div {
-	margin-right: 1.5em;
-	width: calc(50% - 1.5em);
-}
-
-.row.split > div:last-child {
-	margin-left: 1.5em;
-	width: calc(50% - 1.5em);
-	margin-right: 0;
 }
 
 .byline {
@@ -693,4 +714,41 @@ background-image: url('../images/tabbed_widget-down_arrow.png');
 	height: auto;
 	width: auto;
 	text-transform: lowercase;
+}
+
+ul.link-list {
+	font-family: Garamond;
+	font-weight: bold;
+	line-height: 2em;
+	font-size: 1.1em;
+	margin-bottom: 2em;
+}
+
+
+#more-stories li {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-bottom: 1em;
+	border-bottom: 1px solid #999;
+}
+
+#more-stories li > div,
+#more-stories li > a
+ {
+ 	display: block;
+	width: 100%;
+}
+
+#more-stories li > a img{
+	width: 100%;
+	margin-bottom: .5em;
+}
+
+#more-stories li > div {
+	order: 2;
+}
+
+#more-stories li > a {
+	order: 1;	
 }
