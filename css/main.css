@@ -503,6 +503,11 @@ section.two-col.linklists > div > div:nth-child(2) {
 	margin: 0 auto;
 }
 
+
+.row.full.center-box > h4:first-child {
+	margin-left: 4em;
+}
+
 .row.full.center-box > div {
 	width: 100%;
 }

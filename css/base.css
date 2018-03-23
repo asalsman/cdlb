@@ -532,7 +532,7 @@ main {
 }
 
 .row.full.center-box > h4:first-child {
-	margin-left: 4em;
+	margin-left: 1em;
 }
 
 .row.full.center-box > div {
@@ -561,7 +561,7 @@ main {
 	width: 70%;
 	margin: 5em auto;
 	background-color: #fff;
-	padding: 3em;
+	padding: 2em;
 	opacity: .8;
 }
 
