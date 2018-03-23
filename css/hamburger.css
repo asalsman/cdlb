@@ -1,7 +1,7 @@
 .hamburger {
   z-index: 2;
   cursor: pointer;
-  width: 80px;
+  width: auto;
   float: left;
   margin: .5em 0 .5em 2em;
   margin-top: calc(.5em + 2px);
@@ -20,12 +20,11 @@
 
 .hamburger.active .close {
   display: block;
-  margin: 1px .75em 0 .75em;
   float: left;
   font-size: 90%;
   font-weight: bold;
   color: #999;
-
+  margin-right: 0;
 }
 
 .lines {
@@ -91,6 +90,10 @@ ul:not(:first-child) .menu-item {
   margin-top: 2px;
   margin-right: 7px;
   font-weight: bold;
+}
+
+.hamburger > div:not(.lines):not(.close) {
+  display: none;
 }
 
 .menu ul {

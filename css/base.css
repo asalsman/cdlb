@@ -402,16 +402,9 @@ section#four-box ul li .twitter-handle {
 }
 
 main {
-	display: flex;
-	max-width: 1359px;
+	display: block;
 }
 
-main section {
-/*	width: 980px;
-	max-width: 980px; */
-	min-width: calc(980px - 4em - 301px);
-/*	margin: 0 1em; */
-}
 
 .row {
 	width: calc(100% - 1em);

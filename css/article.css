@@ -187,8 +187,6 @@ body > section#story-slider {
 	display: block;
 }
 
-@media screen and (min-width: 980px) {
-	.article #more-stories {
-		display: flex;
-	}
+.article #more-stories {
+	display: flex;
 }

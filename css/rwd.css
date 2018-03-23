@@ -6,44 +6,7 @@ Widths: 1280px
 */
 
 
-@media screen and (max-width: 1280px) {
-	body {
-		background-color: #f00;
-	}
-}
-
-@media screen and (min-width: 980px) {
-	body {
-		background-color: #0f0;
-	}
-
-}
-
-@media screen and (min-width: 768px) {
-	body {
-		background-color: #00f;
-	}
-
-	.top-of-page {
-		width: 100%;
-		max-width: 100%;
-		display: block;
-
-	}
-
-	.top-of-page .center {
-		width: 100%;
-		min-width: 100%;
-		border: 0;
-	}
-
-	section.advertising img {
-		width: 100%;
-	}
-
-	header .logo img {
-		width: 90%;
-	}
-
-
-}
+@import url("1280.css") (min-width: 1280px);
+@import url("0980.css") (min-width: 980px);
+@import url("0768.css") (min-width: 768px);
+@import url("0480.css") (min-width: 480px);

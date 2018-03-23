@@ -10,10 +10,74 @@ body {
 body > main {
 	margin: 1.5em auto;
 	max-width: 1359px;
+	display: flex;
 }
 
+main section {
+	min-width: calc(980px - 4em - 301px);
+}
 
+/* hamburger */
+.hamburger {
+	width: 80px;
+}
 
+.hamburger > div:not(.lines):not(.close) {
+  display: block;
+}
+
+.hamburger.active .close {
+  display: block;
+  margin: 1px .75em 0 .75em;
+  float: left;
+  font-size: 90%;
+  font-weight: bold;
+  color: #999;
+}
+
+/* header */
+header.primary .social {
+	width: 200px;
+	height: 28px;
+	margin: .5em 0 .5em 1em;
+	overflow: hidden;
+	float: left;
+	display: block;
+}
+
+header.primary .engage li:not(.login) {
+		width: 80px;
+		padding: .5em 1em;
+		text-align: center;
+		display:block;
+}
+
+header.primary .engage li.login a {
+	padding: 0;
+	display: block;
+	border: none;
+	margin-top: none;
+	padding: .5em .75em;
+	color: #fff;
+	background-color: transparent;
+}
+
+nav.top-level {
+	border-top: 1px solid #666;
+	border-bottom: 1px solid #666;
+	padding: .5em 0;
+	margin: 0 auto;
+	text-align: center;
+	display: block;
+}
+
+header.primary .logo {
+	margin: 1em auto;
+	text-align: center;
+	display: block;
+}
+
+/* Page */
 .top-of-page {
 	display: flex;
 }
