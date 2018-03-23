@@ -13,8 +13,12 @@ body > main {
 	display: flex;
 }
 
-main section {
+main > section {
 	min-width: calc(980px - 4em - 301px);
+}
+
+main > section {
+	margin-left: 1em;
 }
 
 /* hamburger */
@@ -349,9 +353,9 @@ section.two-col.linklists > div > div:nth-child(2) {
 	line-height: 1.5em;
 }
 
-#more-stories > ul {
+/* #more-stories > ul {
 	width: 75%;
-}
+} */
 
 #more-stories > ul > li,
 .topic-page #more-stories > div > ul > li {
@@ -537,6 +541,10 @@ section.two-col.linklists > div > div:nth-child(2) {
 .about-us .row.full h5 {
 	font-size: 2em;
 	font-weight: bold;
+}
+
+.contact-us .row > p {
+	margin-right: 40%;		
 }
 
 

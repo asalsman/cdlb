@@ -6,5 +6,5 @@
 @import url("main.css") (min-width: 980px);
 @import url("rail.css") (min-width: 980px);
 @import url("slider.css");
-/* @import url("footer.css") (min-width: 980px); */
-/* @import url("rwd.css"); */
+@import url("footer.css") (min-width: 980px);
+/*@import url("rwd.css"); */

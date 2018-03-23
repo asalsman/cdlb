@@ -122,7 +122,7 @@ main article header {
 
 
 
-body > section#story-slider {
+#story-slider {
 	border-top: 2px solid #ccc;
 	border-bottom: 2px solid #ccc;
 	margin: 1em 0 0 0;
@@ -160,6 +160,14 @@ body > section#story-slider {
 
 #story-slider .slick-slide.sponsored span {
 	display: block;
+}
+
+#story-slider .slick-next {
+	right: 25px;
+}
+
+.slick-prev:before, .slick-next:before {
+	font-size: 32px;
 }
 
 .article #more-stories {

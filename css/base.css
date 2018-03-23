@@ -209,7 +209,7 @@ figure figcaption {
 .rail {
 	border-left: 0;
 	width: 100%;
-	margin: 0 auto;
+	margin: 0 1em 0 auto;
 }
 
 .rail .ad {
@@ -605,12 +605,16 @@ background-image: url('../images/tabbed_widget-down_arrow.png');
     background-repeat: no-repeat;
 }
 
+.contact-us {
+	line-height: 1.1em;
+}
+
 .contact-us .row {
 	font-size: 85%;
 }
 
 .contact-us .row > p {
-	margin-right: 40%;
+	margin-right: 0;
 }
 
 .contact-us .row .overline {

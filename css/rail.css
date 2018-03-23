@@ -4,7 +4,7 @@ Desktop Max Width: 322px;
 
 .rail {
 	min-width: 300px;
-	width: 300px;
+	width: calc(331px - 2em);
 	padding: 0 1em;
 	border-left: 1px solid #ccc;
 }
