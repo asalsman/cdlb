@@ -118,6 +118,14 @@ figure figcaption {
 	margin-bottom: 1em;
 }
 
+.offlede:after  {
+	content: "."; 
+	visibility: hidden; 
+	display: block; 
+	height: 0; 
+	clear: both;
+}
+
 .offlede div.image {
 	max-width: 10em;
 	float: right;
@@ -724,6 +732,19 @@ ul.link-list {
 	margin-bottom: 2em;
 }
 
+ul.link-list.small {
+	line-height: 1.1em;
+}
+
+ul.link-list.small li {
+	margin-bottom: .5em;
+}
+
+ul.link-list.small li div:last-child {
+	font-weight: normal;
+	font-size: .75em;
+	font-family: Arial, Helvetica;
+}
 
 #more-stories li {
 	display: flex;

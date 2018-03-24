@@ -21,7 +21,9 @@ main > section {
 main > section {
 	margin-left: 1em;
 }
-
+main + section.advertising {
+	display: block;
+}
 
 /* hamburger */
 .hamburger {
@@ -307,20 +309,43 @@ section.two-col h4 {
 	color: #903;
 	font-family: Arial, Helvetica;
 	flex: 0 0 100%;
+	margin-bottom: 1em;
 }
 
 
-section.two-col {
-
-
+section.col-30-60 > div {
+	width: calc(100% - 331px - 3em);
+	display: flex;
+	flex: 1;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin: 0 1em;
 }
+
+section.col-30-60 .col-30 {
+	width: 30%;
+	margin-left: 10%;
+}
+
+section.col-30-60 .col-60 {
+	width: calc(50% - 1em);
+	margin-left: 10%;
+}
+
 
 .leadout {
+	flex: 0 0 100%;
 	text-align: right;
 	font-size: 80%;
 	font-weight: bold;
 	text-transform: uppercase;
+	color: #999;
 }
+
+.leadout a {
+	color: #999;
+}
+
 @media screen and (min-width: 768px) {
 /* More Stories */
 #more-stories {
