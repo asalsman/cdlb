@@ -289,6 +289,7 @@ section.two-col {
 
 section.slider-container {
 	margin: 0;
+	display: block;
 }
 
 .two-col.slider {
@@ -304,7 +305,8 @@ section.two-col .two-col-slider {
 	min-width: calc(980px - 4em - 301px);
 }
 
-section.two-col h4 {
+section.two-col > h4,
+section.two-col > div > h4 {
 	display: block;
 	text-transform: uppercase;
 	color: #903;
@@ -665,3 +667,53 @@ section.col-30-60 .col-60 {
 
 }
 
+.col-30-60.jobs .col-60 {
+	display: block;
+}
+
+.col-30-60.jobs .col-30 {
+	margin: 0 auto;
+	max-width: none;
+}
+
+.link-list.jobs-list li {
+	line-height: 1.25em;
+	padding-bottom: .75em;
+	margin-bottom: .75em;
+	border-bottom: 1px solid #ccc;
+}
+
+.link-list.jobs-list li a {
+	display: flex;
+	text-decoration: none;
+}
+
+.link-list.jobs-list li h4 {
+	flex: auto;
+}
+
+.link-list.jobs-list img {
+	width: 130px;
+	height: 75px;
+	margin-left: 1em;
+}
+
+.job-listing {
+	width: calc(100% - 130px - 1em);
+}
+
+.job-listing div {
+	font-size: .75em;
+	font-family: Arial, Helvetica;
+	font-weight: normal;
+}
+
+.job-listing span {
+	font-weight: normal;
+	font-size: .75em;
+	color: #999;
+}
+
+.job-listing h4 {
+	font-size: 1.1em;
+}

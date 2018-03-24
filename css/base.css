@@ -844,3 +844,12 @@ ul.link-list.small li div:last-child {
 .col-30-60.jobs .col-60 {
 	display: none;
 }
+
+.col-30-60.jobs .col-30 {
+	margin: 0 auto;
+	max-width: 234px;
+}
+
+.col-30-60.jobs .col-30 .featured-job {
+	margin-bottom: 3em;
+}
