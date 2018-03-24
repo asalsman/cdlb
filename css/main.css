@@ -284,6 +284,7 @@ section.two-col {
 	display: flex;
 	flex: 1;
 	flex-direction: row;
+	flex-wrap: wrap;
 }
 
 section.slider-container {
@@ -332,19 +333,6 @@ section.col-30-60 .col-60 {
 	margin-left: 10%;
 }
 
-
-.leadout {
-	flex: 0 0 100%;
-	text-align: right;
-	font-size: 80%;
-	font-weight: bold;
-	text-transform: uppercase;
-	color: #999;
-}
-
-.leadout a {
-	color: #999;
-}
 
 @media screen and (min-width: 768px) {
 /* More Stories */
@@ -532,6 +520,9 @@ section.col-30-60 .col-60 {
 	margin: 0 auto;
 }
 
+.row.full.full80 > div {
+	width: 80%;
+}
 
 .row.full.center-box > h4:first-child {
 	margin-left: 4em;
@@ -597,6 +588,53 @@ section.col-30-60 .col-60 {
 	.row {
 		width: calc(100% - 1em);
 	}
+
+	.mosaic > div {
+		float: left;
+		max-width: 465px;
+		width: 50%;
+	}
+
+		.mosaic > div:last-child {
+			border-left: 1px solid #fff;
+			width: calc(50% - 1px);
+		}
+
+	.mosaic {
+		width: 90%;
+		max-width: 90%;
+	}
+
+	.mosaic .full {
+		width: 50%;
+	}
+
+	.mosaic:after  {
+		content: "."; 
+		visibility: hidden; 
+		display: block; 
+		height: 0; 
+		clear: both;
+	}
+
+	.mosaic .upsell {
+		position: relative;
+		top: -2px;
+	}
+
+	section.col-30-60 > div.leadout {
+		flex: 0 0 100%;
+		float: right;
+		text-align: right;
+		position: relative;
+		margin: 1em 0;
+	}
+
+	section.col-30-60 > div.leadout a {
+		position: absolute;
+		right: 3em;
+	}
+
 }
 
 @media screen and (min-width: 1280px) {

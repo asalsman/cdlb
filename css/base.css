@@ -68,6 +68,8 @@ h3 {
 	text-transform: none;
 }
 
+
+
 h1.overline {
 	font-size: 2em;
 	text-transform: none;
@@ -255,7 +257,7 @@ figure figcaption {
 .rail {
 	border-left: 0;
 	width: 100%;
-	margin: 0 1em 0 auto;
+	margin: 0 auto;
 }
 
 .rail .ad {
@@ -303,6 +305,10 @@ main + section.advertising {
 
 /* Sliders */
 .two-col.slider {
+	display: none;
+}
+
+.slider-container {
 	display: none;
 }
 
@@ -772,4 +778,69 @@ ul.link-list.small li div:last-child {
 
 #more-stories li > a {
 	order: 1;	
+}
+
+
+.mosaic {
+	max-width: 475px;
+	width: 475px;
+}
+
+.mosaic .full,
+.mosaic img
+ {
+	width: 100%;
+}
+
+.mosaic > div:last-child > :not(.upsell) {
+	width: calc(50%);
+	float: left;
+}
+
+.mosaic > div:last-child > :nth-child(2) {
+	float: right;
+}
+
+
+.mosaic .upsell {
+	width: 100%;
+	float: none;
+	background-color: #999;
+	color: #fff;
+	height: 92px;
+	max-height: 92px;
+	clear: both;
+}
+
+.mosaic .upsell a {
+	color: #fff;
+}
+
+.upsell > div {
+	padding: .5em;
+}
+
+.upsell > :not(.leadout) {
+	width: 75%;
+	margin: 0 auto;
+	font-size: 1.5em;
+}
+
+
+
+.leadout {
+	flex: 0 0 100%;
+	text-align: right;
+	font-size: 80%;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #999;
+}
+
+.leadout a {
+	color: #999;
+}
+
+.col-30-60.jobs .col-60 {
+	display: none;
 }
