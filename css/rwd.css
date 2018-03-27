@@ -5,8 +5,6 @@ Widths: 1280px
 		480px
 */
 
-
-@import url("1280.css") (min-width: 1280px);
-@import url("0980.css") (min-width: 980px);
 @import url("0768.css") (min-width: 768px);
-@import url("0480.css") (min-width: 480px);
+@import url("0980.css") (min-width: 980px);
+@import url("1280.css") (min-width: 1280px);
