@@ -18,6 +18,12 @@ body > main {
 	margin-bottom: 2em;
 }
 
+.tease {
+	line-height: 1.25em;
+	font-size: 80%;
+	color: #666;
+}
+
 /* Anchor tags */
 a {
 	text-decoration: none;

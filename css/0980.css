@@ -152,12 +152,6 @@ header.primary .logo {
 }
 
 /* tease styles */
-.tease {
-	line-height: 1.25em;
-	font-size: 80%;
-	color: #666;
-}
-
 .lede > div span {
 	font-size: 80%;
 	margin-bottom: 1.5em;
