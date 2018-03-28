@@ -6,11 +6,7 @@ Desktop Max Width: 322px;
 	min-width: 300px;
 	width: calc(331px - 2em);
 	padding: 0 1em;
-	border-left: 1px solid #ccc;
-}
-
-.rail .ad img {
-	width: 100%;
+	border-left: 1px solid #95989a;
 }
 
 .rail > div {
@@ -31,7 +27,7 @@ Desktop Max Width: 322px;
 }
 
 .latest-edition > div {
-	border: 1px solid #ccc;
+	border: 1px solid #95989a;
 	margin-top: 1em;
 	position: relative;
 	top: 1em;

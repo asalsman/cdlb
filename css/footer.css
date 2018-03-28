@@ -98,3 +98,14 @@ footer .social img {
 footer .social li {
 	margin: 0 .25em;
 }
+
+footer input {
+	width: calc(100% - 89px);
+	float: left;
+}
+
+footer input[type=submit] {
+	width: auto;
+	margin-top: 0;
+	border-left: 0;
+}

@@ -97,7 +97,7 @@ main article header {
 	width: 70px;
 	height: 70px;
 	margin-right: 1em;
-	border: 1px solid #ccc;
+	border: 1px solid #95989a;
 }
 
 .article.alternate .byline {
@@ -117,20 +117,20 @@ main article header {
 }
 
 .article.alternate .article-body {
-	border-top: 1px solid #ccc;
+	border-top: 1px solid #95989a;
 }
 
 
 
 #story-slider {
-	border-top: 2px solid #ccc;
-	border-bottom: 2px solid #ccc;
+	border-top: 2px solid #95989a;
+	border-bottom: 2px solid #95989a;
 	margin: 1em 0 0 0;
 	display: block;
 }
 
 #story-slider .slide {
-	border-right: 1px solid #ccc;
+	border-right: 1px solid #95989a;
 	padding: .5em 1em;
 	padding-bottom: 0em;
 	height: 75px;

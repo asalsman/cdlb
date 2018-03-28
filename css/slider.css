@@ -117,7 +117,7 @@
 /* Events Slider Small */
 .events-slider-day .h-event {
 	margin-bottom: .5em;
-	border-bottom: 1px solid #ccc;
+	border-bottom: 1px solid #95989a;
 	padding-bottom: 1em;
 }
 
@@ -237,6 +237,6 @@
 
 .slick-prev:before, .slick-next:before {
 	font-size: 32px;
-	border: 1px solid #ccc;
+	border: 1px solid #95989a;
 	border-radius: 1.5em;
 }

@@ -1,12 +1,8 @@
 /* Min-Width: 768px */
-@media screen and (min-width: 768px) {
 	section#four-box ul li {
 		width: 50%;
 		float: left;
 	}
-}
-
-@media screen and (min-width: 768px) {
 
 	.row.split {
 		display: flex;
@@ -25,9 +21,6 @@
 		margin-right: 0;
 	}	
 
-}
-
-@media screen and (min-width: 768px) {
 /* More Stories */
 #more-stories {
 	max-width: 1359px;
@@ -89,16 +82,13 @@
 	color: #903;
 	margin: .75em;
 	padding: .75em 0;
-	border-top: 2px solid #ccc;
-	border-bottom: 1px solid #ccc;
+	border-top: 2px solid #95989a;
+	border-bottom: 1px solid #95989a;
 	font-family: Arial, Helvetica;
 	font-size: 1.5em;
 }
-}
 
-@media screen and (min-width: 768px) {
 	#email-sub > div {
 		width: 50%;
 		max-width: 50%;
 	}
-}
