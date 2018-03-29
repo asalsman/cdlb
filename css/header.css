@@ -10,6 +10,7 @@ header.primary {
 header.primary .nav-tools {
 	background-color: #903;
 	height: 44px;
+	text-align: center;
 }
 
 header.primary .burger {
@@ -35,7 +36,7 @@ header.primary .social {
 
 header.primary .engage {
 	float: right;
-	margin: .5em 2.5em .5em 0;
+	margin: .5em 1em .5em 0;
 	height: 20px;
 	width: auto;
 }

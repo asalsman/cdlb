@@ -1,6 +1,15 @@
-@media screen and (min-width: 1280px) {
-	section#four-box ul li {
-		width: 25%;
-		float: left;
-	}
+section#four-box ul li {
+	width: 25%;
+	float: left;
+}
+
+.col-30-60.jobs .col-60 {
+	display: block;
+	margin-top: -5em;
+}
+
+.col-30-60.jobs .col-30 {
+	margin: 0 auto;
+	max-width: 234px;
+	margin-top: -5em;
 }

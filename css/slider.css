@@ -24,13 +24,10 @@
 }
 
 @media screen and (min-width: 980px) {
-
-
 	.slider-container .slick-prev,
 	.slider-container .slick-next {
 		top: 50%;
 	}
-
 }
 
 .slider .slide {
@@ -45,7 +42,7 @@
 	margin-bottom: .5em;
 }
 
-.slider-container header h3 {
+.slider-container header h4 {
 	color: #903;
 	text-transform: uppercase;
 	margin: .75em 0 .5em 3em;
@@ -54,7 +51,7 @@
 	display: inline-block;
 }
 
-.slider-container header h3 span {
+.slider-container header h4 span {
 	text-transform: none;
 }
 

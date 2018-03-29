@@ -163,6 +163,11 @@ figure figcaption {
 	width: 100%;
 }
 
+.offlede ul a {
+    font-size: 1.2em;
+    line-height: 1.08em;
+}
+
 .lede ul,
 .offlede ul {
 	margin-top: .5em;
@@ -901,6 +906,8 @@ ul.link-list.small li div:last-child {
 	font-weight: bold;
 	text-transform: uppercase;
 	color: #999;
+	margin-bottom: 0;
+	padding-bottom: 0;
 }
 
 .leadout a {
@@ -909,13 +916,38 @@ ul.link-list.small li div:last-child {
 
 .col-30-60.jobs .col-60 {
 	display: none;
+	margin-top: -6em;
 }
 
 .col-30-60.jobs .col-30 {
 	margin: 0 auto;
 	max-width: 234px;
+	margin-top: -6em;
 }
 
 .col-30-60.jobs .col-30 .featured-job {
 	margin-bottom: 3em;
+}
+
+.mobile-logo {
+	height: 30px;
+	width: auto;
+	margin: .4em auto 0 auto;
+	text-align: center;
+}
+
+.listing {
+	text-align: center;
+}
+
+.listing p {
+	text-align: left;
+}
+
+.listing span {
+	text-transform: uppercase;
+}
+
+.listing h3 {
+	text-align: left;
 }

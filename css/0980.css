@@ -35,6 +35,7 @@ main + section.advertising {
 
 .logo {
 	padding-top: 44px;
+	width: 45%;
 }
 
 /* hamburger */
@@ -580,6 +581,7 @@ section.col-30-60 .col-60 {
 
 .col-30-60.jobs .col-60 {
 	display: block;
+	margin-top: 0;
 }
 
 .col-30-60.jobs .col-30 {
@@ -627,4 +629,8 @@ section.col-30-60 .col-60 {
 
 .job-listing h4 {
 	font-size: 1.1em;
+}
+
+.mobile-logo {
+	display: none;
 }
