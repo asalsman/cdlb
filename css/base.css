@@ -299,6 +299,10 @@ figure figcaption {
 	clear: both;	
 }
 
+.ad {
+	margin-bottom: 1em;
+}
+
 /* Rail */
 .rail {
 	border-left: 0;
@@ -494,7 +498,6 @@ p {
 	width: 70px;
 	height: 70px;
 	margin-right: 1em;
-	border: 1px solid #95989a;
 }
 
 .article.alternate .byline {
@@ -537,6 +540,7 @@ section#four-box ul li img {
 	width: 100px;
 	height: 100px;
 	margin-right: 1em;
+	border-radius: 50px;
 }
 
 section#four-box ul li > div {
@@ -546,6 +550,11 @@ section#four-box ul li > div {
 section#four-box ul li a {
 	display: block;
 	margin: .75em 0;
+}
+
+section#four-box ul li a:not(.twitter-handle) {
+	font-family: Garamond, serif;
+	font-size: 1.5em;
 }
 
 section#four-box ul li .twitter-handle {
@@ -721,15 +730,11 @@ background-image: url('../images/tabbed_widget-down_arrow.png');
 	margin-right: 0;
 }
 
-.contact-us .row .overline {
-	font-size: 100%;
-}
-
 .contact-us .row a + label {
 	padding-left: 1em;
 }
 
-.contact-us .row.split ul + h3 {
+.contact-us .row.split ul + h4 {
 	margin-top: 3em;
 }
 
