@@ -150,7 +150,7 @@ header.primary .logo {
 	position: -webkit-sticky;
   	position: sticky;
  	align-self: flex-start;
- 	top: .5em;
+ 	top: 52px;
  	border-bottom: 0;
 }
 

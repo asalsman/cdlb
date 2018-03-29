@@ -73,7 +73,6 @@ h3 {
 	text-transform: none;
 }
 
-
 .overline.grey {
 	color: #6a6a6a;
 	text-transform: none;
@@ -232,6 +231,7 @@ figure figcaption {
 	font-size: .6em;
 	text-transform: uppercase;
 	color: #FFA500;
+	margin-bottom: 0;
 }
 
 
@@ -381,12 +381,14 @@ header.primary .engage li.login a
 	display: block;
 }
 
-header.primary .engage li.login a {
+header.primary .engage li.login {
+	display: block;
 	border: 1px solid #95989a;
 	margin-top: .25em;
 	padding: .25em .75em;
 	color: #000;
 	background-color: #eee;
+	cursor: pointer;
 }
 
 /* Footer */

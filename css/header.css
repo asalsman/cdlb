@@ -104,3 +104,56 @@ header.primary .top-level li {
 header.primary .engage li:not(.login) {
 	display: none;
 }
+
+#login-box.active {
+	display: block;
+	right: 0;
+}
+
+#login-box {
+	transition: left 1s; 
+	display: none;
+	background: #efefef;
+	position: fixed;
+	top: 44px;
+	z-index: 10;
+	overflow-y: scroll;
+	width: 350px;
+	opacity: .98;
+	border: 1px solid #903;
+	border-top: 0;
+	border-right: 0;
+	right: -350px;
+}
+
+#login-box ul {
+	margin: 1em 1em 1em .5em;
+}
+
+#login-box li {
+	margin-bottom: .75em;
+}
+
+#login-box ul > li:last-child {
+	font-weight: bold;
+}
+
+#login-box input {
+	margin-bottom: .75em;
+	display: block;
+}
+
+
+#login-box label {
+	margin-bottom: .75em;
+	display: block;
+}
+
+#login-box form input[type="submit"] {
+	margin: 0 auto .75em auto;
+	text-align: center;
+	background-color: #0073C6;
+	color: #fff;
+	padding: .5em 2em;
+	text-transform: capitalize;
+}

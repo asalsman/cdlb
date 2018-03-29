@@ -41,9 +41,9 @@
 
 .menu {
   width: auto;
-  height: 100%;
+  height: calc(100% - 44px);
   background: #222;
-  position: absolute;
+  position: fixed;
   top: 44px;
   left: -320px;
   transition: left .1s;
