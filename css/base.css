@@ -853,8 +853,8 @@ ul.link-list.small li div:last-child {
 
 
 .mosaic {
-	max-width: 475px;
-	width: 475px;
+	max-width: 595px;
+	width: 595px;
 }
 
 .mosaic .full,
@@ -863,9 +863,45 @@ ul.link-list.small li div:last-child {
 	width: 100%;
 }
 
-.mosaic > div:last-child > :not(.upsell) {
+.mosaic .full,
+.mosaic .split > div {
+	position: relative;
+}
+
+.mosaic a > div {
+	position: absolute;
+	bottom: 0;
+	margin: 1em;
+}
+
+.mosaic .split a > div {
+	margin: .5em;
+}
+
+.mosaic .offlede {
+	background-color: #fff;
+	opacity: .95;
+	padding: .5em;
+}
+
+.mosaic .overline {
+	display: inline-block;
+	padding: .5em;
+	background-color: #000;
+	color: #fff;
+}
+
+.mosaic .split > div {
 	width: calc(50%);
 	float: left;
+}
+
+.mosaic .split:after {
+	content: "."; 
+	visibility: hidden; 
+	display: block; 
+	height: 0; 
+	clear: both;
 }
 
 .mosaic > div:last-child > :nth-child(2) {
@@ -873,7 +909,7 @@ ul.link-list.small li div:last-child {
 }
 
 
-.mosaic .upsell {
+.mosaic .split > .upsell {
 	width: 100%;
 	float: none;
 	background-color: #999;
@@ -922,7 +958,7 @@ ul.link-list.small li div:last-child {
 .col-30-60.jobs .col-30 {
 	margin: 0 auto;
 	max-width: 234px;
-	margin-top: -6em;
+	margin-top: 0;
 }
 
 .col-30-60.jobs .col-30 .featured-job {

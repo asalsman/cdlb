@@ -317,16 +317,16 @@ section.slider-container {
 }
 
 .two-col.slider {
-	margin: 2em 1.5em 1em 1em;
 	display: flex;
-
+	width: 100%;
+	max-width: 1359px;
 }
 
-section.two-col .two-col-slider {
-	width: 100%;
+
+section.two-col > .slides {
+	width: calc(100% - 331px - 3em);
 	display: block;
-	max-width: 1026px;
-	min-width: calc(980px - 4em - 301px);
+	margin: 0 1em;
 }
 
 section.two-col > h4,
@@ -352,6 +352,7 @@ section.col-30-60 > div {
 section.col-30-60 .col-30 {
 	width: 30%;
 	margin-left: 10%;
+	margin-top: -6em;
 }
 
 section.col-30-60 .col-60 {
@@ -472,7 +473,7 @@ section.col-30-60 .col-60 {
 }
 
 .row.full.full80 > div {
-	width: 80%;
+	width: 100%;
 }
 
 .row.full.center-box > h4:first-child {
@@ -534,11 +535,11 @@ section.col-30-60 .col-60 {
 
 	.mosaic > div {
 		float: left;
-		max-width: 465px;
+		max-width: 595px;
 		width: 50%;
 	}
 
-		.mosaic > div:last-child {
+		.mosaic .split {
 			border-left: 1px solid #fff;
 			width: calc(50% - 1px);
 		}
