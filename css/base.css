@@ -796,6 +796,10 @@ input[type=submit] {
 	height: auto;
 	width: auto;
 	text-transform: lowercase;
+	background-color: #0073C6;
+	color: #fff;
+	font-weight: bold;
+	cursor: pointer;	
 }
 
 input[type=checkbox] {
