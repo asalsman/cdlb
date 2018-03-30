@@ -102,6 +102,10 @@ header.primary .top-level li {
 	padding-left: 2em;
 }
 
+header.primary .top-level li:first-child {
+	padding-left: 0;
+}
+
 header.primary .engage li:not(.login) {
 	display: none;
 }

@@ -10,6 +10,10 @@ body > main {
 	margin: 1em;
 }
 
+body > main {
+	margin-top: 60px;
+}
+
 .topic-page main section {
 	border-bottom: 0;
 }
@@ -101,6 +105,13 @@ strong {
 nav.top-level,
 header.primary .logo {
 	display: none;
+}
+
+.nav-tools {
+  	position: fixed;
+  	width: 100%;
+  	top: 0;
+  	z-index: 20;
 }
 
 /* Figure */
@@ -467,7 +478,6 @@ footer .contact .logo img {
 article .byline {
 	margin-bottom: 1em;
 	font-size: .75em;
-	color: #80B6D2;
 }
 
 article .byline a {
@@ -489,26 +499,26 @@ p {
 }
 
 /* Article Alternate */
-.article.alternate .byline {
+.article .byline {
 	display: flex;
 	font-size: 1em;
 }
 
-.article.alternate .byline img {
+.article .byline img {
 	width: 70px;
 	height: 70px;
 	margin-right: 1em;
 }
 
-.article.alternate .byline {
+.article. .byline {
 	color: #111;
 }
 
-.article.alternate .byttl {
+.article .byttl {
 	display: block;
 }
 
-.article.alternate .column-name {
+.article .column-name {
 	font-weight: bold;
 	color: #666;
 	font-size: 2em;
@@ -664,10 +674,11 @@ main {
 	width: 100%;
 }
 
-.center-box > div {
-	background-image: url(../images/sample-full-width.jpg);
+.about-us .center-box > div {
+	background-image: url(../images/about_us-lede_image.png);
 	background-position: center center;
 	padding: 2em;
+	background-repeat: no-repeat;
 }
 
 .center-box > div > div {
@@ -788,6 +799,12 @@ select {
 	-webkit-appearance: none;
   	-webkit-border-radius: 0px;
   	box-sizing: content-box;
+}
+
+select {
+	background: #fff url('../images/icon-down_arrow.png') no-repeat;
+    background-size: 20px;
+    background-position:  right 10px center;
 }
 
 input[type=submit] {
@@ -964,11 +981,6 @@ ul.link-list.small li div:last-child {
 	margin-top: -6em;
 }
 
-.col-30-60.jobs .col-30 {
-	margin: 0 auto;
-	max-width: 234px;
-	margin-top: 0;
-}
 
 .col-30-60.jobs .col-30 .featured-job {
 	margin-bottom: 3em;

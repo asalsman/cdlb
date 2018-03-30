@@ -88,23 +88,23 @@ main article header {
 	float: right;
 }
 
-.article.alternate .byline {
+.article .byline {
 	display: flex;
 	font-size: 1em;
 }
 
-.article.alternate .byline img {
+.article .byline img {
 	width: 70px;
 	height: 70px;
 	margin-right: 1em;
 	border: 1px solid #95989a;
 }
 
-.article.alternate .byline {
+.article .byline {
 	color: #111;
 }
 
-.article.alternate .byline .byttl {
+.article .byline .byttl {
 	display: inline;
 }
 
