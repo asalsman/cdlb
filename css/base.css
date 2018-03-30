@@ -808,7 +808,7 @@ select {
 	padding: .25em;
 	margin: 0;
 	height: 2.7em;
-	width: 100%;
+	width: calc(100% - .5em);
 	border-radius: 0;
 	background-color: #fff;
 	-webkit-appearance: none;
@@ -837,9 +837,14 @@ input[type=submit] {
 input[type=checkbox] {
 	margin-top: 0;
 	padding: 0;
-	height: auto;
-	width: auto;
+	height: initial;
+	width: initial;
 	text-transform: none;
+	box-sizing: border-box;
+	-webkit-appearance: checkbox;
+    margin: 0 0.5ex;
+    padding: initial;
+    border: initial;
 }
 
 ul.link-list {
@@ -1022,4 +1027,35 @@ ul.link-list.small li div:last-child {
 
 .listing h3 {
 	text-align: left;
+}
+
+.serp .row {
+	border-bottom: 0;
+}
+
+.serp main form {
+	margin-bottom: 2em;
+}
+
+.serp main form label {
+	margin: 1em 0 .5em 0;
+	display: block;
+}
+
+.serp-individual {
+	border-bottom: 1px solid #95989a;
+	margin-bottom: 1em;
+	padding-bottom: 1em;
+}
+
+.pagination-counter li {
+	display: inline-block;
+	margin: 0 .5em;
+}
+
+.pagination-counter .active a,
+.pagination-counter .active a:hover {
+	font-weight: bold;
+	cursor: default;
+	color: #000;
 }

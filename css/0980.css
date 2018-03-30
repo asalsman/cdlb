@@ -684,3 +684,13 @@ input[type=submit] {
 #main-logo a {
 	display: block;
 }
+
+.serp main form div {
+	width: calc(50% - 1em);
+	margin-right: 1em;
+	float: left;
+}
+
+.serp main form [type=submit] {
+	clear: left;
+}
