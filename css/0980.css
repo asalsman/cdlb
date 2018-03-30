@@ -268,13 +268,7 @@ h3.overline,
 	width: 50%;
 }
 
-#beltway div div img {
-	display: inline;
-	width: 48px;
-	height: 48px;
-}
-
-#beltway > div div {
+#beltway > div > div {
 	margin: .5em 0;
 }
 
@@ -283,7 +277,6 @@ h3.overline,
 	position: relative;
 	top: -1em;
 }
-
 
 /* Social */
 .social li img {
@@ -675,3 +668,19 @@ input[type=submit] {
     to   { opacity: 1; }
 }
 
+#main-logo form {
+	position: absolute;
+	right: 2em;
+	top: calc(44px + .75em);
+}
+
+#main-logo form input {
+	background-image: url('../images/icon-search.png');
+	background-repeat: no-repeat;
+	background-size: 2.5em;
+	background-position:  right 10px center;
+}
+
+#main-logo a {
+	display: block;
+}

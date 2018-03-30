@@ -270,14 +270,28 @@ figure figcaption {
 	width: 60%;
 }
 
-#beltway div div img {
+#beltway > div > div img {
 	display: inline;
-	width: 48px;
-	height: 48px;
+	width: 34px;
+	margin-top: 11px;
 }
 
-#beltway > div div {
+#beltway > div > div {
 	margin: .5em 0;
+	position: relative;
+}
+
+#beltway > div > div > span {
+	top: -7px;
+}
+
+#beltway .icon-mail {
+	display: inline-block;
+	height: 50px;
+	width: 50px;
+	background-color: #0073C6;
+	border-radius: 25px;
+	margin: auto;
 }
 
 #beltway div span {
@@ -384,6 +398,7 @@ main + section.advertising {
 /* Header */
 header.primary {
 	margin-bottom: 1em;
+	position: relative;
 }
 
 header.primary .social {
