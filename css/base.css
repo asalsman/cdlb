@@ -1066,3 +1066,17 @@ ul.link-list.small li div:last-child {
 	cursor: default;
 	color: #000;
 }
+
+.lede.feature {
+	text-align: center;
+	border-bottom: 1px solid #95989a;
+}
+
+.lede.feature .tease,
+.lede.feature figcaption {
+	text-align: left;
+}
+
+.lede.feature .overline {
+	text-transform: uppercase;
+}
