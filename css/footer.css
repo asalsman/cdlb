@@ -100,7 +100,7 @@ footer .social li {
 }
 
 footer input {
-	width: calc(100% - 89px);
+	width: 100%;
 	float: left;
 }
 
