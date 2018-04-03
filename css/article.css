@@ -18,6 +18,12 @@
 	margin: 1em 0;
 }
 
+
+.article main figure img {
+	width: auto;
+	max-width: 100%;
+}
+
 .byline .byttl {
 	display: block;
 	color: #111;
@@ -107,6 +113,11 @@ main article header {
 .article .byline .byttl {
 	display: inline;
 }
+
+.article.alternate main figure img {
+	width: 100%;
+}
+
 
 .article.alternate .column-name {
 	font-weight: bold;

@@ -435,24 +435,6 @@ input[type=submit] {
 	text-align: center;
 }
 
-#email-sub span input {
-	font-size: 1em;
-	border: 1px solid #ccc;
-	padding: .25em;
-	margin: 0;
-	height: 2.7em;
-	width: calc(100% - 82px);
-}
-
-#email-sub span input[type=submit] {
-	max-width: 71px;
-	padding: 1em;
-	border-left: none;
-	height: auto;
-	width: auto;
-	text-transform: lowercase;
-}
-
 /* Full Row */
 .row.full {
 	margin: 1.5em 4em 2.5em 4em;
