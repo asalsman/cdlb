@@ -1,6 +1,4 @@
-$(document).ready(
-
-function() {
+$(function() {
 	var crown = document.querySelector("#mobile-logo")
 	var demo  = document.querySelector("#main-logo")
 	window.addEventListener( "scroll", scrollBrain, false )

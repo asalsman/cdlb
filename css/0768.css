@@ -88,7 +88,20 @@
 	font-size: 1.5em;
 }
 
-	#email-sub > div {
-		width: 50%;
-		max-width: 50%;
-	}
+#email-sub > div {
+	width: 50%;
+	max-width: 50%;
+}
+
+#beltway input,
+#beltway select {
+	margin: 0;
+	width: calc(45% - 35px);
+	float: left;
+}
+
+#beltway form input:last-child {
+	float: left;
+	clear: none;
+	margin-top: 0;
+}

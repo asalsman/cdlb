@@ -303,9 +303,16 @@ figure figcaption {
 #beltway input,
 #beltway select {
 	margin: 0;
-	width: calc(45% - 35px);
+	width: calc(50% - 10px);
 	float: left;
 }
+
+#beltway form input:last-child {
+	float: none;
+	clear: both;
+	margin-top: .5em;
+}
+
 
 #beltway input[type=submit] {
 	width: 77px;
