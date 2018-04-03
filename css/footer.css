@@ -79,7 +79,7 @@ footer .contact .logo {
 }
 
 footer .contact .logo img {
-	width: auto;
+	width: 105px;
 }
 
 footer nav ul {
@@ -100,12 +100,12 @@ footer .social li {
 }
 
 footer input {
-	width: 100%;
+	width: calc(100% - 92px);
 	float: left;
 }
 
 footer input[type=submit] {
-	width: auto;
+	width: 50px;
 	margin-top: 0;
 	border-left: 0;
 }

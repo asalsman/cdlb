@@ -39,9 +39,8 @@ Desktop Max Width: 322px;
 	padding: .5em 0;
 }
 
-.referral { 
+.referral span { 
 	display: flex;
-	padding: 0 1em;
 }
 
 .referral img {

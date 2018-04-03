@@ -678,7 +678,7 @@ input[type=submit] {
 	width: 3.25em;
 	background-image: url('../images/icon-search.png');
 	background-repeat: no-repeat;
-	background-size: 2.5em;
+	background-size: 2em;
 	background-position:  right 10px center;
 	border: 0;
 }

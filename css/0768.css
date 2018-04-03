@@ -105,3 +105,14 @@
 	clear: none;
 	margin-top: 0;
 }
+
+#beltway div span {
+	display: inline-block;
+	position: relative;
+	top: -1em;
+}
+
+#beltway > div > div > span {
+	top: -7px;
+}
+
