@@ -257,10 +257,9 @@ figure figcaption {
 #beltway {
 	text-align: center;
 	margin: 1em auto;
-	padding: .5em 0;
+	padding: 1em 0;
 	background-color: #ccc;
 	clear: both;
-	margin-top: 1em;
 }
 
 #beltway > div {
@@ -329,7 +328,8 @@ figure figcaption {
 }
 
 .ad {
-	margin-bottom: 1em;
+	margin: 1em 0;
+
 }
 
 /* Rail */
@@ -706,6 +706,7 @@ main {
 	background-position: center center;
 	padding: 2em;
 	background-repeat: no-repeat;
+	background-size: auto 100%;
 }
 
 .center-box > div > div {
