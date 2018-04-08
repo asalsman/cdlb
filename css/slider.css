@@ -299,3 +299,7 @@
 	color: #ccc;
 	cursor: default;
 }
+
+.two-col .slides .slick-dots {
+	bottom: 25px;
+}
