@@ -1116,3 +1116,41 @@ button.slick-prev {
 button.slick-next {
 	right: -12px;	
 }
+
+/* Gallery Test */
+.two-col .slides .events-slider-large > a {
+	display: flex;
+	flex-wrap: wrap;	
+}
+
+.two-col .slides .events-slider-large > a > * {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.two-col .slides .events-slider-large > a :nth-child(1) {
+	order: 2;
+	margin-top: .5em;
+}
+
+.two-col .slides .events-slider-large > a :nth-child(2) {
+	order: 1;
+}
+
+.two-col .slides .events-slider-large > a :nth-child(3) {
+	order: 3;
+}
+
+.two-col .slides .events-slider-large > a :nth-child(4) {
+	order: 4;
+}
+
+.two-col .slides .events-slider-large > a span.dateline {
+	float: none;
+}
+
+
+.events-slider-day .h-event {
+	margin-bottom: 1em;
+}

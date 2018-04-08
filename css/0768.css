@@ -117,5 +117,6 @@
 }
 
 .two-col .slides .slick-dots {
-	bottom: 25px;
+	bottom: auto;
+	margin-top: .5em;
 }

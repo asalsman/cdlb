@@ -47,6 +47,7 @@ main + section.advertising {
   font-size: 90%;
   font-weight: bold;
   color: #999;
+  width: auto;
 }
 
 /* header */
@@ -694,3 +695,9 @@ button.slick-prev {
 button.slick-next {
 	right: -20px;	
 }
+
+.two-col .slides .events-slider-large > a {
+	display: block;
+	margin: 0 1.5em 0 10%;
+}
+
