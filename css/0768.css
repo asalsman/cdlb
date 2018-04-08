@@ -116,3 +116,6 @@
 	top: -7px;
 }
 
+.two-col .slides .slick-dots {
+	bottom: 25px;
+}

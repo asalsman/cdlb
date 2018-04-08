@@ -1039,8 +1039,7 @@ ul.link-list.small li div:last-child {
 }
 
 .mobile-logo {
-	height: 30px;
-	width: auto;
+	width: 220px;
 	margin: .4em auto 0 auto;
 	text-align: center;
 }
@@ -1104,4 +1103,16 @@ ul.link-list.small li div:last-child {
 
 .lede.feature .overline {
 	text-transform: uppercase;
+}
+
+.two-col .slides .slick-dots {
+	bottom: auto;
+}
+
+button.slick-prev {
+	left: -12px;
+}
+
+button.slick-next {
+	right: -12px;	
 }

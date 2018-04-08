@@ -1,6 +1,6 @@
+/* Min-Width: 980px */
 
 /* Main */
-
 body {
 	margin: 0 auto;
 	z-index: 1;
@@ -685,4 +685,12 @@ input[type=submit] {
 
 .serp main form [type=submit] {
 	clear: left;
+}
+
+button.slick-prev {
+	left: -20px;
+}
+
+button.slick-next {
+	right: -20px;	
 }
