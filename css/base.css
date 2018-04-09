@@ -1150,7 +1150,10 @@ button.slick-next {
 	float: none;
 }
 
-
 .events-slider-day .h-event {
 	margin-bottom: 1em;
+}
+
+.events-slider-large .tease.p-summary {
+	margin-top: 1em;
 }
