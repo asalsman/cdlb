@@ -1,8 +1,8 @@
 @import url("reset.css");
 @import url("base.css");
 @import url("header.css");
-@import url("../source/slick-1.8.0/slick/slick.css");
-@import url("../source/slick-1.8.0/slick/slick-theme.css");
+@import url("slick.css");
+@import url("slick-theme.css");
 @import url("article.css") (min-width: 980px);
 @import url("rail.css") (min-width: 980px);
 @import url("slider.css");
