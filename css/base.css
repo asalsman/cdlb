@@ -83,6 +83,10 @@ h3 {
 	text-transform: none;
 }
 
+.lede,
+.offlede {
+	margin-bottom: 1em;
+}
 
 h1.overline {
 	font-size: 2em;
