@@ -666,12 +666,13 @@ input[type=submit] {
 #main-logo input[type=text] {
 	-webkit-transition: width 0.4s ease-in-out;
 	transition: left 1s;
-
+	text-indent: -9999px;
 }
 
 #main-logo input[type=text]:focus {
 	width: 220px;
 	border: 1px solid #95989a;
+	text-indent: 0;
 }
 
 #main-logo a {
