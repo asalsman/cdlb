@@ -1285,7 +1285,7 @@ body.products section.row {
 .halves td:nth-child(2n) {
 	font-weight: bold;
 	color: #0073C6;
-	font-size: 1.2em;
+	font-size: 1.4em;
 	padding-left: .25em;
 }
 
@@ -1352,6 +1352,10 @@ margin: 1em auto;
 	margin: .5em 0;
 }
 
+.lead-hed .overline {
+	margin: 1.5em 0 .25em 0;
+}
+
 .lead-hed a {
 	text-transform: uppercase;
 	font-size: .8em;
@@ -1364,10 +1368,11 @@ margin: 1em auto;
 	display: block;
 	line-height: 2em;
 	opacity: 0.9;
-	margin: .5em 0;
+	margin: 0 0 .5em 0;
 	padding: 0 .5em;
 	font-size: 1.2em;
 	width: 100%;
+	font-weight: bold;
 }
 
 .products .lead-hed {
