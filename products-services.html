@@ -18,6 +18,13 @@
 				width: 100%;
 			}
 
+			.expander .controls {
+				cursor: pointer;
+			}
+
+			.expanded-content {
+				display: none;
+			}
 
 		</style>
 	</head>
@@ -228,7 +235,7 @@
 				<h3>Our Products</h3>
 				<div class="container">
 					<div class="item">
-						<img src="images/products/cdlb.jpg" />
+						<img src="images/products/printproducts.jpg" />
 						<h4>Print Products</h4>
 						<div>The CDLB is the official source for the publication of the Chicago Bar Association and Illinois State Bar Association’s monthly newsletters. Contained inside the CDLB, these sections feature the latest news and events for both organizations.</div>
 						<a href="">&#9654; More Print Info</a>
@@ -274,13 +281,18 @@
 								<li>Black with silver color plated images</li>
 								<li>Electronic PDF</li>
 							</ul>
-							For more information, contact our reprint coordinator:<br />
-							<ul class="link-list">
-								<li>Alyssa Gawlinski</li>
-								<li><a href="mailto:agawlinski@LawBulletinMedia.com">agawlinski@LawBulletinMedia.com</a></li>
-								<li>312-644-2394</li>
+							<div class="expander">
+								<div class="controls">&#43; More Reprints And Plaques Info</div>
+								<div class="expanded-content content">
+									For more information, contact our reprint coordinator:<br />
+									<ul class="link-list">
+										<li>Alyssa Gawlinski</li>
+										<li><a href="mailto:agawlinski@LawBulletinMedia.com">agawlinski@LawBulletinMedia.com</a></li>
+										<li>312-644-2394</li>
+									</ul>
+								</div>
+							</div>
 						</div>
-						<a href="">&#9654; More Reprints And Plaques Info</a>
 					</div>
 				</div>
 			</section>			
@@ -381,5 +393,12 @@
 		</footer>
 		<script src="js/hamburger-menu.min.js"></script>
 		<script src="js/login.min.js"></script>
+		<script>
+$(document).ready(function(){
+    $(".expander .controls").click(function(){
+        $(".expander .expanded-content").slideToggle("slow");
+    });
+});
+		</script>
 	</body>
 </html>		
