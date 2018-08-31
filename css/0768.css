@@ -120,3 +120,36 @@
 	bottom: auto;
 	margin-top: .5em;
 }
+
+.row.halves .container {
+	margin: 0;
+}
+
+.row.thirds .container,
+.row.halves .container {
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.row.thirds .container .item {
+	width: calc(50% - 2em);
+	float: none;
+	text-align: left;
+	margin: 0 auto;
+}
+
+.row.thirds .container .item:nth-child(2n) {
+	border-left: 1px solid #999;
+	width: calc(50% - 2em - 1px);
+}
+
+.row.halves .container .item {
+	width: calc(50% - 5em);
+	text-align: left;
+	margin: 0;
+	padding: 1em 3em 1em 2em;
+}
+
+.row.halves .container .item:nth-child(2) {
+	padding: 1em 2em 1em 3em;
+}

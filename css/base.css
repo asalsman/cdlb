@@ -1161,3 +1161,147 @@ button.slick-next {
 .events-slider-large .tease.p-summary {
 	margin-top: 1em;
 }
+
+.row.thirds {
+	margin-bottom: 0;
+}
+
+.row.thirds > div:after,
+.row.halves > div:after {
+	content: "."; 
+	visibility: hidden; 
+	display: block; 
+	height: 0; 
+	clear: both;
+}
+
+.row.halves .container {
+	margin: 1em;
+}
+
+.row.thirds .container,
+.row.halves .container {
+	display: block;
+}
+
+.row.thirds .container .item > div,
+.row.halves .container p {
+	line-height: 1.2em;
+	font-size: 1em;
+}
+
+.row.thirds .container .item > a {
+	display: block;
+	margin: 1em 0;
+	text-transform: uppercase;
+	font-size: .8em;
+}
+
+.row.halves .container .item,
+.row.thirds .container .item, {
+	margin: 1em;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.row.halves .container .item h4,
+.row.thirds .container .item h4 {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 1.5em 0 1em 0;
+}
+
+.row.halves .container .item {
+	width: calc(100%);
+	text-align: left;
+}
+
+.row.thirds .container .item {
+	width: calc(100% - 2em) ;
+	float: none;
+	text-align: left;
+	border-top: 1px solid #999;
+	padding: 1em;
+}
+
+.row.thirds .container .item img {
+	width: 100%;
+}
+
+body.products > main { 
+	display: block;
+	max-width: 100%;
+	margin: 60px 0 0 0;
+}
+
+body.products section.row {
+	text-align: center;
+}
+
+.graph {
+	margin: 1.5em 0;
+}
+
+.graph > span:nth-child(2){
+	float: right;
+	font-weight: bold;
+}
+
+.graph > div {
+	background-color: #999;
+	width: 100%;
+	height: 1em;
+	margin-top: .25em;
+}
+
+.graph div[class^="percent-"] {
+	height: 1em;
+	background-color: #0073C6;	
+}
+
+.graph .percent-550 {
+	width: 55%;
+}
+
+.graph .percent-271 {
+	width: 27.1%;
+}
+
+.graph .percent-169 {
+	width: 16.9%;
+}
+
+.halves table {
+	width: 100%;
+}
+
+.halves td {
+	text-transform: uppercase;
+	padding: .75em .75em .75em 0;
+	border-bottom: 1px solid #999;
+	font-size: .8em;
+}
+
+.halves td:nth-child(2n) {
+	font-weight: bold;
+	color: #0073C6;
+	font-size: 1.2em;
+	padding-left: .25em;
+}
+
+.halves td:nth-child(2n + 3) {
+	border-left: 1px solid #999;
+}
+
+.halves td:nth-child(1n) {
+	padding-left: 1em;
+}
+
+.thirds ul.link-list {
+	margin-bottom: 2em;
+	font-weight: normal;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em;
+}
+
+.thirds ul.link-list:last-child {
+	margin-bottom: 0;
+}

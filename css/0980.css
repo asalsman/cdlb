@@ -702,3 +702,32 @@ button.slick-next {
 	margin: 0 1.5em 0 10%;
 }
 
+body.products > main { 
+	display: block;
+	margin: 0;
+	max-width: 100%;
+}
+
+.row.thirds .container .item {
+	width: calc(33.3% - 3em);
+	float: none;
+	text-align: left;
+	padding: 1em 1.5em;
+}
+
+.row.thirds .container .item:nth-child(2n) {
+	border-left: 0;
+	width: calc(33.3% - 3em) ;
+}
+
+.row.thirds .container .item:nth-child(2),
+.row.thirds .container .item:nth-child(5)
+ {
+ 	border-left: 1px solid #999;
+ 	border-right: 1px solid #999;
+ 	width: calc(33.3% - 3em - 1px);
+}
+
+.halves td:nth-child(1n) {
+	padding-left: 2em;
+}
