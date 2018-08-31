@@ -731,3 +731,7 @@ body.products > main {
 .halves td:nth-child(1n) {
 	padding-left: 2em;
 }
+
+.contact-form input {
+	width: calc(33% - 2em);
+}

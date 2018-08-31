@@ -838,7 +838,8 @@ background-image: url('../images/tabbed_widget-down_arrow.png');
 }
 
 input,
-select {
+select,
+textarea {
 	font-size: 1em;
 	border: 1px solid #95989a;
 	padding: .25em;
@@ -1167,7 +1168,8 @@ button.slick-next {
 }
 
 .row.thirds > div:after,
-.row.halves > div:after {
+.row.halves > div:after,
+.contact-form form:after {
 	content: "."; 
 	visibility: hidden; 
 	display: block; 
@@ -1304,4 +1306,29 @@ body.products section.row {
 
 .thirds ul.link-list:last-child {
 	margin-bottom: 0;
+}
+
+.contact-form h3 {
+	padding: 1em 0 .5em 0;
+}
+
+.contact-form h4 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+}
+
+.contact-form form {
+	width: 80%;
+margin: 1em auto;
+}
+
+.contact-form input, 
+.contact-form textarea {
+	width: 100%;
+	margin: .5em 0;
+}
+
+.contact-form textarea {
+	width: 100%;
+	height: 5em;
 }
