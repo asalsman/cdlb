@@ -1169,7 +1169,7 @@ button.slick-next {
 
 .row.thirds > div:after,
 .row.halves > div:after,
-.contact-form form:after {
+.contact-form form > div:before {
 	content: "."; 
 	visibility: hidden; 
 	display: block; 
@@ -1398,4 +1398,11 @@ margin: 1em auto;
 
 .row.lead .lead-property-bug {
 	display: none;
+}
+
+.contact-form input[type=submit] {
+	clear: both;
+	float: none;
+	margin: 0 auto;
+	width: calc(100% - 1.5em);
 }
