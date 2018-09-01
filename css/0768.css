@@ -196,6 +196,6 @@
 }
 
 .contact-form input[type=submit] {
-	width: calc(31% - 2em);
+	width: calc(25% - 2em);
 	margin: .5em 0 0 1em;
 }

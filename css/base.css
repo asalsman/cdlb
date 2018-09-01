@@ -1298,7 +1298,7 @@ body.products section.row {
 }
 
 .thirds ul.link-list {
-	margin-bottom: 2em;
+	margin-bottom: 0;
 	font-weight: normal;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 1em;
@@ -1405,4 +1405,23 @@ margin: 1em auto;
 	float: none;
 	margin: 0 auto;
 	width: calc(100% - 1.5em);
+}
+
+.content.shown{
+	display: block;
+	height: auto;
+	transition: height 2s;
+}
+
+.content.hidden {
+	height: 0;
+}
+
+.expander {
+	margin-top: 2em;
+}
+
+.expander .controls {
+	font-size: .8em;
+	text-transform: uppercase;
 }
