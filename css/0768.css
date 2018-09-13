@@ -35,6 +35,8 @@
 
 .topic-page #more-stories > div {
 	display: flex;
+	flex: 1;
+	max-width: 1359px;
 }
 
 #more-stories h4 {
