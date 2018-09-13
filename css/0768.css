@@ -59,6 +59,10 @@
 	margin: 0 1em .5em 1em;
 }
 
+.topic-page #more-stories ul > li {
+	max-width: calc(1359px - 2em - 331px);
+}
+
 #more-stories ul > li:last-child {
 	border-bottom: none;
 }
